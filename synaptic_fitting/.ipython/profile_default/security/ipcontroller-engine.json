@@ -1,0 +1,21 @@
+{
+  "ssh": "",
+  "interface": "tcp://127.0.0.1",
+  "registration": 52316,
+  "control": 52317,
+  "mux": 52318,
+  "task": 52319,
+  "iopub": 52320,
+  "hb_ping": 52321,
+  "hb_pong": 52322,
+  "broadcast": [
+    52323,
+    52324
+  ],
+  "key": "45e4450a-fa8308c655f4cd5984852337",
+  "curve_serverkey": null,
+  "location": "p225-n38.kthopen.kth.se",
+  "pack": "json",
+  "unpack": "json",
+  "signature_scheme": "hmac-sha256"
+}
