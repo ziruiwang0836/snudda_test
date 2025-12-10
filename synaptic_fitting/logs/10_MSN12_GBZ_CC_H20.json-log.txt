@@ -1,10 +1,10 @@
-Loading ../data/synapses/example_data/10_MSN12_GBZ_CC_H20.json
-Setting up workers: 2025-12-05 11:38:49
+Loading ../example_data/10_MSN12_GBZ_CC_H20.json
+Setting up workers: 2025-12-09 15:12:55
 OptimiseSynapseFull: Init done
 Holding voltage: -0.079 V
 Stim times: [0.1  0.15 0.2  0.25 0.3  0.35 0.4  0.45 1.  ] s
 Synapse type: glut
-Using morphology: /Users/peirui/BasalGangliaData/data/neurons/striatum/dspn/str-dspn-e150602_c1_D1-mWT-0728MSN01-v20220620/morphology
+Using morphology: /cfs/klemming/home/m/metog/BasalGangliaData/data/neurons/striatum/dspn/str-dspn-e150602_c1_D1-mWT-0728MSN01-v20220620/morphology
 Setting resting voltage to -79.000 mV
 Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
 Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)

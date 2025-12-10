@@ -1,0 +1,39 @@
+2025-12-09 15:12:32.597 [IPEngine] Loading connection info from $IPP_CONNECTION_INFO
+2025-12-09 15:12:32.598 [IPEngine] WARNING | Not using CurveZMQ security
+2025-12-09 15:12:32.600 [IPEngine] Registering with controller at tcp://127.0.0.1:51453
+2025-12-09 15:12:32.603 [IPEngine.5] Shell_addrs: ['tcp://127.0.0.1:51699', 'tcp://127.0.0.1:58531', 'tcp://127.0.0.1:57545']
+2025-12-09 15:12:32.603 [IPEngine.5] Connecting shell to tcp://127.0.0.1:51699
+2025-12-09 15:12:32.603 [IPEngine.5] Connecting shell to tcp://127.0.0.1:58531
+2025-12-09 15:12:32.603 [IPEngine.5] Connecting shell to tcp://127.0.0.1:57545
+2025-12-09 15:12:32.603 [IPEngine.5] Starting nanny
+2025-12-09 15:12:33.288 [KernelNanny.5] Starting kernel nanny for engine 5, pid=544110, nanny pid=544801
+2025-12-09 15:12:33.288 [KernelNanny.5] Nanny watching parent pid 544110.
+2025-12-09 15:12:33.405 [IPEngine.5] Loading IPython extension: storemagic
+2025-12-09 15:12:33.406 [IPEngine.5] Running file in user namespace: /etc/pythonstart
+2025-12-09 15:12:33.413 [IPEngine.5] WARNING | debugpy_stream undefined, debugging will not be enabled
+2025-12-09 15:12:33.419 [IPEngine.5] Starting to monitor the heartbeat signal from the hub every 3500 ms.
+2025-12-09 15:12:33.419 [IPEngine.5] Completed registration with id 5
+2025-12-09 15:12:51.954 [IPEngine.5] Handling apply_request: 7941038b-b90ec61798b369234a876769_538343_6
+2025-12-09 15:12:52.462 [IPEngine.5] Handling apply_request: 7941038b-b90ec61798b369234a876769_538343_26
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+2025-12-09 15:12:54.381 [IPEngine.5] Handling apply_request: 7941038b-b90ec61798b369234a876769_538343_46
+2025-12-09 15:12:54.693 [IPEngine.5] Handling apply_request: 7941038b-b90ec61798b369234a876769_538343_66
+2025-12-09 15:12:55.193 [IPEngine.5] Handling apply_request: 7941038b-b90ec61798b369234a876769_538343_86
+2025-12-09 15:12:55.209 [IPEngine.5] Handling apply_request: 7941038b-b90ec61798b369234a876769_538343_106
+2025-12-09 15:12:55.221 [IPEngine.5] Handling execute_request: 7941038b-b90ec61798b369234a876769_538343_126
+2025-12-09 15:13:42.685 [IPEngine.5] Handling apply_request: 7941038b-b90ec61798b369234a876769_538343_146
+2025-12-09 15:13:42.770 [IPEngine.5] Handling apply_request: 7941038b-b90ec61798b369234a876769_538343_166
+2025-12-09 15:13:42.784 [IPEngine.5] Handling execute_request: 7941038b-b90ec61798b369234a876769_538343_186
+2025-12-09 15:13:42.801 [IPEngine.5] Handling execute_request: 7941038b-b90ec61798b369234a876769_538343_206
+2025-12-09 15:14:06.931 [IPEngine.5] Handling execute_request: 7941038b-b90ec61798b369234a876769_538343_226
+2025-12-09 15:14:06.954 [IPEngine.5] Handling execute_request: 7941038b-b90ec61798b369234a876769_538343_246
+2025-12-09 17:29:38.733 [IPEngine.5] WARNING | No heartbeat in the last 3500 ms (1 time(s) in a row).
+2025-12-10 11:41:56.009 [IPEngine.5] WARNING | No heartbeat in the last 3500 ms (1 time(s) in a row).
+2025-12-10 13:14:41.018 [IPEngine.5] WARNING | No heartbeat in the last 3500 ms (1 time(s) in a row).
+2025-12-10 14:39:23.498 [IPEngine.5] WARNING | No heartbeat in the last 3500 ms (1 time(s) in a row).
+2025-12-10 15:31:14.868 [IPEngine.5] WARNING | No heartbeat in the last 3500 ms (1 time(s) in a row).
+2025-12-10 15:33:59.301 [IPEngine.5] WARNING | No heartbeat in the last 3500 ms (1 time(s) in a row).
+2025-12-10 15:43:33.290 [IPEngine.5] WARNING | No heartbeat in the last 3500 ms (1 time(s) in a row).
+2025-12-10 17:10:34.959 [IPEngine.5] WARNING | No heartbeat in the last 3500 ms (1 time(s) in a row).
+2025-12-10 19:05:43.985 [IPEngine.5] WARNING | No heartbeat in the last 3500 ms (1 time(s) in a row).

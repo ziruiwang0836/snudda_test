@@ -1,0 +1,884 @@
+Loading ../example_data/10_MSN12_GBZ_CC_H20.json
+OptimiseSynapseFull: Init done
+TESTING LOG A
+sobol_worker_setup: synapse_position_override = (array([20, 20, 20, 20, 20, 20, 20, 18, 20, 20, 20, 20, 20, 20, 20, 20, 20,
+       20, 34, 20]), array([0.97459209, 0.94222174, 0.97115817, 0.90464425, 0.90681573,
+       0.93087559, 0.97357064, 0.86164376, 0.89328311, 0.98478339,
+       0.98632063, 0.97002186, 0.89905673, 0.97044896, 0.89890451,
+       0.98452314, 0.93507123, 0.95778879, 0.86373897, 0.97060419]))
+Holding voltage: -0.079 V
+Stim times: [0.1  0.15 0.2  0.25 0.3  0.35 0.4  0.45 1.  ] s
+Synapse type: glut
+Using morphology: /cfs/klemming/home/m/metog/BasalGangliaData/data/neurons/striatum/dspn/str-dspn-e150602_c1_D1-mWT-0728MSN01-v20220620/morphology
+Setting resting voltage to -79.000 mV
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Setting parameters: tau1_ampa = 1.0925303972077076 (neuron natural units)
+Setting parameters: tau2_ampa = 4.437072205337933 (neuron natural units)
+Setting parameters: tau3_ampa = 119.98882942221262 (neuron natural units)
+Setting parameters: I2_ampa = -1.9886844552485996 (neuron natural units)
+Setting parameters: I3_ampa = -0.048026349597992034 (neuron natural units)
+Setting parameters: tpeak_ampa = 2.063918378264594 (neuron natural units)
+Setting parameters: factor_ampa = -1.0119232390299844 (neuron natural units)
+Setting parameters: tau1_nmda = 1.8208839953461793 (neuron natural units)
+Setting parameters: tau2_nmda = 33.567312186770074 (neuron natural units)
+Setting parameters: tau3_nmda = 204.30443150344257 (neuron natural units)
+Setting parameters: I2_nmda = 0.8477113681722652 (neuron natural units)
+Setting parameters: I3_nmda = 0.2970225501393719 (neuron natural units)
+Setting parameters: tpeak_nmda = 6.064414326277802 (neuron natural units)
+Setting parameters: factor_nmda = 1.0471430189533268 (neuron natural units)
+Setting parameters: nmda_ratio = 0.299937 (neuron natural units)
+Stimulation times (s): [0.1  0.15 0.2  0.25 0.3  0.35 0.4  0.45 1.  ]
+Updating holding current, might take a bit of time
+Setting resting voltage to -79.000 mV
+Setting resting voltage to -79.000 mV
+Holding voltage -79.0 mV, IClamp amp = 0.19031176634598523 nA
+RunSynapseRun: Init done.
+sobol_worker_setup: setup_model done
+sobol_worker_setup: done.
+TESTING LOG B
+parameter_sets=[(np.float64(0.6727518920898437), np.float64(0.06589260864257818), np.float64(1.7057031921386718), np.float64(0.7614134980773926), np.float64(2.909149169921875e-10)), (np.float64(0.1732518920898437), np.float64(1.0658426086425783), np.float64(0.7057531921386719), np.float64(0.2614135480773926), np.float64(7.859149169921875e-10)), (np.float64(0.23568939208984369), np.float64(0.9408488586425783), np.float64(1.830696942138672), np.float64(0.07391356682739258), np.float64(9.715399169921874e-10)), (np.float64(0.7351893920898437), np.float64(1.9407988586425784), np.float64(0.830746942138672), np.float64(0.5739135168273926), np.float64(4.765399169921875e-10)), (np.float64(0.9849393920898437), np.float64(0.4408738586425782), np.float64(0.330771942138672), np.float64(0.3239135418273926), np.float64(2.2903991699218748e-10)), (np.float64(0.4854393920898437), np.float64(1.4408238586425783), np.float64(1.330721942138672), np.float64(0.8239134918273926), np.float64(7.240399169921875e-10)), (np.float64(0.3605643920898437), np.float64(0.1908863586425782), np.float64(0.5807594421386719), np.float64(0.1989135543273926), np.float64(1.0528991699218746e-10)), (np.float64(0.8600643920898436), np.float64(1.1908363586425783), np.float64(1.580709442138672), np.float64(0.6989135043273926), np.float64(6.002899169921875e-10)), (np.float64(0.6103143920898437), np.float64(0.6908613586425782), np.float64(1.080734442138672), np.float64(0.4489135293273926), np.float64(8.477899169921875e-10)), (np.float64(0.11081439208984367), np.float64(1.6908113586425784), np.float64(0.08078444213867197), np.float64(0.9489134793273926), np.float64(3.527899169921875e-10)), (np.float64(0.07959564208984371), np.float64(0.6283644836425782), np.float64(0.7682500671386719), np.float64(0.7926634949523926), np.float64(1.362274169921875e-10)), (np.float64(0.5790956420898437), np.float64(1.6283144836425782), np.float64(1.768200067138672), np.float64(0.2926635449523926), np.float64(6.312274169921875e-10)), (np.float64(0.8288456420898437), np.float64(0.12838948364257818), np.float64(1.2682250671386721), np.float64(0.5426635199523926), np.float64(8.787274169921876e-10)), (np.float64(0.3293456420898437), np.float64(1.1283394836425782), np.float64(0.268275067138672), np.float64(0.042663569952392566), np.float64(3.837274169921875e-10)), (np.float64(0.4542206420898437), np.float64(0.3783769836425782), np.float64(1.5182125671386721), np.float64(0.9176634824523926), np.float64(7.549774169921876e-10)), (np.float64(0.9537206420898436), np.float64(1.3783269836425782), np.float64(0.518262567138672), np.float64(0.4176635324523926), np.float64(2.599774169921875e-10)), (np.float64(0.7039706420898437), np.float64(0.8783519836425783), np.float64(0.018287567138671967), np.float64(0.6676635074523927), np.float64(1.247741699218748e-11)), (np.float64(0.20447064208984367), np.float64(1.8783019836425783), np.float64(1.018237567138672), np.float64(0.1676635574523926), np.float64(5.074774169921875e-10)), (np.float64(0.1420331420898437), np.float64(0.0033957336425782803), np.float64(0.393268817138672), np.float64(0.4801635262023926), np.float64(6.931024169921875e-10)), (np.float64(0.6415331420898437), np.float64(1.0033457336425782), np.float64(1.393218817138672), np.float64(0.9801634762023926), np.float64(1.981024169921875e-10)), (np.float64(0.8912831420898437), np.float64(0.5033707336425782), np.float64(1.893193817138672), np.float64(0.23016355120239257), np.float64(4.456024169921875e-10)), (np.float64(0.39178314208984366), np.float64(1.5033207336425782), np.float64(0.893243817138672), np.float64(0.7301635012023926), np.float64(9.406024169921875e-10)), (np.float64(0.2669081420898437), np.float64(0.7533582336425783), np.float64(1.1432313171386719), np.float64(0.3551635387023926), np.float64(3.2185241699218746e-10)), (np.float64(0.7664081420898436), np.float64(1.7533082336425783), np.float64(0.14328131713867198), np.float64(0.8551634887023927), np.float64(8.168524169921876e-10)), (np.float64(0.5166581420898437), np.float64(0.2533832336425782), np.float64(0.643256317138672), np.float64(0.1051635637023926), np.float64(5.693524169921875e-10)), (np.float64(0.017158142089843675), np.float64(1.2533332336425782), np.float64(1.643206317138672), np.float64(0.6051635137023926), np.float64(7.435241699218749e-11)), (np.float64(0.024962829589843694), np.float64(0.08151682739257826), np.float64(0.658880535888672), np.float64(0.9723509769836427), np.float64(9.173992919921876e-10)), (np.float64(0.5244628295898437), np.float64(1.0814668273925783), np.float64(1.6588305358886721), np.float64(0.4723510269836426), np.float64(4.2239929199218753e-10)), (np.float64(0.7742128295898437), np.float64(0.5814918273925782), np.float64(1.158855535888672), np.float64(0.7223510019836425), np.float64(1.748992919921875e-10)), (np.float64(0.27471282958984367), np.float64(1.5814418273925783), np.float64(0.15890553588867196), np.float64(0.22235105198364258), np.float64(6.698992919921876e-10)), (np.float64(0.3995878295898437), np.float64(0.8314793273925782), np.float64(1.908818035888672), np.float64(0.8473509894836426), np.float64(5.114929199218749e-11)), (np.float64(0.8990878295898437), np.float64(1.8314293273925784), np.float64(0.9088680358886719), np.float64(0.3473510394836426), np.float64(5.461492919921875e-10)), (np.float64(0.6493378295898438), np.float64(0.3315043273925782), np.float64(0.408893035888672), np.float64(0.5973510144836426), np.float64(7.936492919921876e-10)), (np.float64(0.1498378295898437), np.float64(1.3314543273925783), np.float64(1.408843035888672), np.float64(0.09735106448364256), np.float64(2.986492919921875e-10)), (np.float64(0.2122753295898437), np.float64(0.7064855773925782), np.float64(0.03391178588867194), np.float64(0.2848510457336426), np.float64(4.842742919921875e-10)), (np.float64(0.7117753295898437), np.float64(1.7064355773925781), np.float64(1.033861785888672), np.float64(0.7848509957336427), np.float64(9.792742919921875e-10)), (np.float64(0.9615253295898437), np.float64(0.20651057739257828), np.float64(1.533836785888672), np.float64(0.034851070733642575), np.float64(7.317742919921875e-10)), (np.float64(0.4620253295898437), np.float64(1.2064605773925783), np.float64(0.533886785888672), np.float64(0.5348510207336427), np.float64(2.367742919921875e-10)), (np.float64(0.3371503295898437), np.float64(0.4564980773925782), np.float64(1.2838492858886719), np.float64(0.4098510332336426), np.float64(6.080242919921875e-10)), (np.float64(0.8366503295898438), np.float64(1.4564480773925783), np.float64(0.28389928588867197), np.float64(0.9098509832336426), np.float64(1.130242919921875e-10)), (np.float64(0.5869003295898437), np.float64(0.9564730773925783), np.float64(0.783874285888672), np.float64(0.1598510582336426), np.float64(3.6052429199218747e-10)), (np.float64(0.08740032958984367), np.float64(1.9564230773925781), np.float64(1.783824285888672), np.float64(0.6598510082336426), np.float64(8.555242919921876e-10)), (np.float64(0.11861907958984369), np.float64(0.8939762023925782), np.float64(1.096358660888672), np.float64(0.5661010176086426), np.float64(6.389617919921875e-10)), (np.float64(0.6181190795898437), np.float64(1.8939262023925783), np.float64(0.09640866088867195), np.float64(0.0661010676086426), np.float64(1.4396179199218747e-10)), (np.float64(0.8678690795898437), np.float64(0.3940012023925782), np.float64(0.5963836608886719), np.float64(0.8161009926086427), np.float64(3.914617919921875e-10)), (np.float64(0.36836907958984366), np.float64(1.3939512023925782), np.float64(1.596333660888672), np.float64(0.3161010426086426), np.float64(8.864617919921875e-10)), (np.float64(0.4932440795898437), np.float64(0.14401370239257827), np.float64(0.346396160888672), np.float64(0.6911010051086426), np.float64(2.677117919921875e-10)), (np.float64(0.9927440795898437), np.float64(1.1439637023925782), np.float64(1.346346160888672), np.float64(0.19110105510864261), np.float64(7.627117919921875e-10)), (np.float64(0.7429940795898438), np.float64(0.6439887023925782), np.float64(1.8463211608886718), np.float64(0.9411009801086426), np.float64(5.152117919921875e-10)), (np.float64(0.2434940795898437), np.float64(1.6439387023925782), np.float64(0.8463711608886719), np.float64(0.4411010301086426), np.float64(2.021179199218746e-11)), (np.float64(0.18105657958984367), np.float64(0.2690074523925782), np.float64(1.721327410888672), np.float64(0.12860106135864258), np.float64(2.0583679199218748e-10)), (np.float64(0.6805565795898437), np.float64(1.2689574523925782), np.float64(0.7213774108886719), np.float64(0.6286010113586427), np.float64(7.008367919921876e-10)), (np.float64(0.9303065795898438), np.float64(0.7689824523925782), np.float64(0.22140241088867196), np.float64(0.3786010363586426), np.float64(9.483367919921876e-10)), (np.float64(0.4308065795898437), np.float64(1.7689324523925782), np.float64(1.221352410888672), np.float64(0.8786009863586426), np.float64(4.533367919921875e-10)), (np.float64(0.3059315795898437), np.float64(0.5189949523925782), np.float64(0.9713649108886719), np.float64(0.003601073858642556), np.float64(8.245867919921875e-10)), (np.float64(0.8054315795898437), np.float64(1.5189449523925782), np.float64(1.971314910888672), np.float64(0.5036010238586426), np.float64(3.295867919921875e-10)), (np.float64(0.5556815795898437), np.float64(0.019019952392578254), np.float64(1.471339910888672), np.float64(0.2536010488586426), np.float64(8.208679199218747e-11)), (np.float64(0.05618157958984371), np.float64(1.0189699523925781), np.float64(0.471389910888672), np.float64(0.7536009988586426), np.float64(5.770867919921875e-10)), (np.float64(0.040572204589843675), np.float64(0.6127402648925782), np.float64(1.5650852233886718), np.float64(0.4254760316711426), np.float64(3.7599304199218753e-10)), (np.float64(0.5400722045898437), np.float64(1.6126902648925783), np.float64(0.565135223388672), np.float64(0.9254759816711426), np.float64(8.709930419921876e-10)), (np.float64(0.7898222045898438), np.float64(0.11276526489257821), np.float64(0.065160223388672), np.float64(0.17547605667114258), np.float64(6.234930419921876e-10)), (np.float64(0.2903222045898437), np.float64(1.1127152648925782), np.float64(1.065110223388672), np.float64(0.6754760066711426), np.float64(1.2849304199218746e-10)), (np.float64(0.4151972045898437), np.float64(0.36275276489257824), np.float64(0.815122723388672), np.float64(0.3004760441711426), np.float64(7.472430419921875e-10)), (np.float64(0.9146972045898437), np.float64(1.3627027648925782), np.float64(1.8150727233886719), np.float64(0.8004759941711426), np.float64(2.5224304199218747e-10)), (np.float64(0.6649472045898437), np.float64(0.8627277648925782), np.float64(1.315097723388672), np.float64(0.05047606917114256), np.float64(4.997430419921875e-10)), (np.float64(0.1654472045898437), np.float64(1.8626777648925783), np.float64(0.31514772338867203), np.float64(0.5504760191711426), np.float64(9.947430419921877e-10)), (np.float64(0.22788470458984372), np.float64(0.23775901489257822), np.float64(1.190103973388672), np.float64(0.8629759879211426), np.float64(8.091180419921875e-10)), (np.float64(0.7273847045898437), np.float64(1.2377090148925782), np.float64(0.19015397338867202), np.float64(0.36297603792114264), np.float64(3.141180419921875e-10)), (np.float64(0.9771347045898438), np.float64(0.7377340148925782), np.float64(0.690128973388672), np.float64(0.6129760129211426), np.float64(6.661804199218745e-11)), (np.float64(0.4776347045898437), np.float64(1.7376840148925783), np.float64(1.690078973388672), np.float64(0.1129760629211426), np.float64(5.616180419921875e-10)), (np.float64(0.35275970458984374), np.float64(0.9877215148925782), np.float64(0.44014147338867193), np.float64(0.9879759754211426), np.float64(1.9036804199218746e-10)), (np.float64(0.8522597045898437), np.float64(1.987671514892578), np.float64(1.440091473388672), np.float64(0.4879760254211426), np.float64(6.853680419921875e-10)), (np.float64(0.6025097045898437), np.float64(0.48774651489257825), np.float64(1.940066473388672), np.float64(0.7379760004211426), np.float64(9.328680419921874e-10)), (np.float64(0.10300970458984371), np.float64(1.4876965148925783), np.float64(0.940116473388672), np.float64(0.23797605042114262), np.float64(4.378680419921875e-10)), (np.float64(0.07179095458984369), np.float64(0.42524963989257825), np.float64(0.127657098388672), np.float64(0.019226072296142593), np.float64(9.755554199218748e-11)), (np.float64(0.5712909545898437), np.float64(1.4251996398925781), np.float64(1.127607098388672), np.float64(0.5192260222961426), np.float64(5.925555419921875e-10)), (np.float64(0.8210409545898437), np.float64(0.9252246398925782), np.float64(1.627582098388672), np.float64(0.2692260472961426), np.float64(8.400555419921876e-10)), (np.float64(0.32154095458984366), np.float64(1.9251746398925782), np.float64(0.627632098388672), np.float64(0.7692259972961426), np.float64(3.450555419921875e-10)), (np.float64(0.4464159545898437), np.float64(0.6752371398925783), np.float64(1.377594598388672), np.float64(0.14422605979614256), np.float64(9.638055419921876e-10)), (np.float64(0.9459159545898437), np.float64(1.6751871398925782), np.float64(0.3776445983886719), np.float64(0.6442260097961426), np.float64(4.688055419921875e-10)), (np.float64(0.6961659545898438), np.float64(0.17526213989257822), np.float64(0.877619598388672), np.float64(0.3942260347961426), np.float64(2.213055419921875e-10)), (np.float64(0.1966659545898437), np.float64(1.1752121398925781), np.float64(1.877569598388672), np.float64(0.8942259847961427), np.float64(7.163055419921875e-10)), (np.float64(0.13422845458984367), np.float64(0.8002308898925783), np.float64(0.502638348388672), np.float64(0.7067260035461427), np.float64(5.306805419921875e-10)), (np.float64(0.6337284545898437), np.float64(1.8001808898925782), np.float64(1.502588348388672), np.float64(0.2067260535461426), np.float64(3.5680541992187424e-11)), (np.float64(0.8834784545898438), np.float64(0.30025588989257823), np.float64(1.0026133483886719), np.float64(0.9567259785461426), np.float64(2.831805419921875e-10)), (np.float64(0.3839784545898437), np.float64(1.3002058898925783), np.float64(0.0026633483886719933), np.float64(0.4567260285461426), np.float64(7.781805419921876e-10)), (np.float64(0.2591034545898437), np.float64(0.0502683898925782), np.float64(1.752575848388672), np.float64(0.5817260160461426), np.float64(4.069305419921875e-10)), (np.float64(0.7586034545898437), np.float64(1.0502183898925783), np.float64(0.752625848388672), np.float64(0.08172606604614258), np.float64(9.019305419921875e-10)), (np.float64(0.5088534545898437), np.float64(0.5502433898925783), np.float64(0.252650848388672), np.float64(0.8317259910461426), np.float64(6.544305419921875e-10)), (np.float64(0.009353454589843713), np.float64(1.5501933898925784), np.float64(1.252600848388672), np.float64(0.33172604104614256), np.float64(1.594305419921875e-10)), (np.float64(0.013255798339843694), np.float64(0.4486859680175782), np.float64(1.8697574890136721), np.float64(0.7809447461242676), np.float64(6.737664794921875e-10)), (np.float64(0.5127557983398437), np.float64(1.4486359680175782), np.float64(0.869807489013672), np.float64(0.2809447961242676), np.float64(1.787664794921875e-10)), (np.float64(0.7625057983398438), np.float64(0.9486609680175783), np.float64(0.36983248901367194), np.float64(0.5309447711242676), np.float64(4.262664794921875e-10)), (np.float64(0.2630057983398437), np.float64(1.9486109680175783), np.float64(1.369782489013672), np.float64(0.030944821124267607), np.float64(9.212664794921875e-10)), (np.float64(0.3878807983398437), np.float64(0.6986734680175782), np.float64(0.619819989013672), np.float64(0.9059447336242676), np.float64(3.025164794921875e-10)), (np.float64(0.8873807983398436), np.float64(1.6986234680175782), np.float64(1.619769989013672), np.float64(0.4059447836242676), np.float64(7.975164794921876e-10)), (np.float64(0.6376307983398437), np.float64(0.19869846801757818), np.float64(1.119794989013672), np.float64(0.6559447586242676), np.float64(5.500164794921875e-10)), (np.float64(0.1381307983398437), np.float64(1.1986484680175782), np.float64(0.11984498901367202), np.float64(0.15594480862426757), np.float64(5.501647949218748e-11)), (np.float64(0.2005682983398437), np.float64(0.8236672180175783), np.float64(1.4947762390136718), np.float64(0.4684447773742676), np.float64(2.406414794921875e-10)), (np.float64(0.7000682983398436), np.float64(1.8236172180175783), np.float64(0.49482623901367195), np.float64(0.9684447273742676), np.float64(7.356414794921875e-10)), (np.float64(0.9498182983398438), np.float64(0.3236922180175782), np.float64(0.994801239013672), np.float64(0.2184448023742676), np.float64(9.831414794921876e-10)), (np.float64(0.4503182983398437), np.float64(1.3236422180175782), np.float64(1.994751239013672), np.float64(0.7184447523742676), np.float64(4.881414794921875e-10)), (np.float64(0.3254432983398437), np.float64(0.07370471801757827), np.float64(0.24483873901367192), np.float64(0.34344478987426763), np.float64(8.593914794921876e-10)), (np.float64(0.8249432983398437), np.float64(1.0736547180175782), np.float64(1.244788739013672), np.float64(0.8434447398742676), np.float64(3.643914794921875e-10)), (np.float64(0.5751932983398437), np.float64(0.5736797180175782), np.float64(1.7447637390136719), np.float64(0.09344481487426759), np.float64(1.1689147949218749e-10)), (np.float64(0.07569329833984367), np.float64(1.5736297180175782), np.float64(0.744813739013672), np.float64(0.5934447648742676), np.float64(6.118914794921875e-10)), (np.float64(0.10691204833984369), np.float64(0.5111828430175782), np.float64(0.43232936401367195), np.float64(0.6871947554992677), np.float64(8.903289794921876e-10)), (np.float64(0.6064120483398436), np.float64(1.5111328430175783), np.float64(1.432279364013672), np.float64(0.1871948054992676), np.float64(3.953289794921875e-10)), (np.float64(0.8561620483398438), np.float64(0.011207843017578267), np.float64(1.932254364013672), np.float64(0.9371947304992676), np.float64(1.4782897949218746e-10)), (np.float64(0.3566620483398437), np.float64(1.0111578430175783), np.float64(0.932304364013672), np.float64(0.43719478049926763), np.float64(6.428289794921876e-10)), (np.float64(0.4815370483398437), np.float64(0.2611953430175782), np.float64(1.182291864013672), np.float64(0.5621947679992676), np.float64(2.4078979492187503e-11)), (np.float64(0.9810370483398436), np.float64(1.2611453430175783), np.float64(0.18234186401367203), np.float64(0.06219481799926757), np.float64(5.190789794921876e-10)), (np.float64(0.7312870483398437), np.float64(0.7611703430175782), np.float64(0.682316864013672), np.float64(0.8121947429992676), np.float64(7.665789794921875e-10)), (np.float64(0.2317870483398437), np.float64(1.7611203430175784), np.float64(1.682266864013672), np.float64(0.31219479299926756), np.float64(2.715789794921875e-10)), (np.float64(0.16934954833984367), np.float64(0.13620159301757817), np.float64(0.807310614013672), np.float64(0.12469481174926761), np.float64(4.572039794921875e-10)), (np.float64(0.6688495483398437), np.float64(1.1361515930175783), np.float64(1.807260614013672), np.float64(0.6246947617492676), np.float64(9.522039794921876e-10)), (np.float64(0.9185995483398437), np.float64(0.6361765930175782), np.float64(1.307285614013672), np.float64(0.3746947867492676), np.float64(7.047039794921875e-10)), (np.float64(0.4190995483398437), np.float64(1.6361265930175781), np.float64(0.30733561401367193), np.float64(0.8746947367492677), np.float64(2.0970397949218747e-10)), (np.float64(0.2942245483398437), np.float64(0.8861640930175783), np.float64(1.557273114013672), np.float64(0.24969479924926757), np.float64(5.809539794921875e-10)), (np.float64(0.7937245483398436), np.float64(1.8861140930175782), np.float64(0.557323114013672), np.float64(0.7496947492492676), np.float64(8.595397949218746e-11)), (np.float64(0.5439745483398437), np.float64(0.3861890930175782), np.float64(0.057348114013672014), np.float64(0.4996947742492676), np.float64(3.334539794921875e-10)), (np.float64(0.04447454833984371), np.float64(1.386139093017578), np.float64(1.057298114013672), np.float64(0.9996947242492676), np.float64(8.284539794921875e-10)), (np.float64(0.06008392333984369), np.float64(0.9799094055175782), np.float64(0.901055926513672), np.float64(0.3278197914367676), np.float64(1.323602294921875e-10)), (np.float64(0.5595839233398436), np.float64(1.9798594055175782), np.float64(1.901005926513672), np.float64(0.8278197414367676), np.float64(6.273602294921875e-10)), (np.float64(0.8093339233398438), np.float64(0.47993440551757827), np.float64(1.401030926513672), np.float64(0.07781981643676761), np.float64(8.748602294921876e-10)), (np.float64(0.3098339233398437), np.float64(1.4798844055175782), np.float64(0.401080926513672), np.float64(0.5778197664367676), np.float64(3.7986022949218747e-10)), (np.float64(0.4347089233398437), np.float64(0.22994690551757824), np.float64(1.651018426513672), np.float64(0.4528197789367676), np.float64(9.986102294921875e-10)), (np.float64(0.9342089233398436), np.float64(1.2298969055175784), np.float64(0.6510684265136719), np.float64(0.9528197289367677), np.float64(5.036102294921875e-10)), (np.float64(0.6844589233398437), np.float64(0.7299219055175783), np.float64(0.15109342651367197), np.float64(0.20281980393676757), np.float64(2.561102294921875e-10)), (np.float64(0.1849589233398437), np.float64(1.7298719055175782), np.float64(1.151043426513672), np.float64(0.7028197539367677), np.float64(7.511102294921875e-10)), (np.float64(0.24739642333984369), np.float64(0.35494065551757825), np.float64(0.276087176513672), np.float64(0.8903197351867675), np.float64(5.654852294921875e-10)), (np.float64(0.7468964233398436), np.float64(1.3548906555175781), np.float64(1.276037176513672), np.float64(0.3903197851867676), np.float64(7.04852294921875e-11)), (np.float64(0.9966464233398438), np.float64(0.8549156555175782), np.float64(1.7760121765136718), np.float64(0.6403197601867676), np.float64(3.179852294921875e-10)), (np.float64(0.4971464233398437), np.float64(1.8548656555175782), np.float64(0.7760621765136719), np.float64(0.1403198101867676), np.float64(8.129852294921876e-10)), (np.float64(0.3722714233398437), np.float64(0.6049281555175783), np.float64(1.026049676513672), np.float64(0.7653197476867677), np.float64(4.4173522949218753e-10)), (np.float64(0.8717714233398437), np.float64(1.6048781555175782), np.float64(0.026099676513671954), np.float64(0.2653197976867676), np.float64(9.367352294921875e-10)), (np.float64(0.6220214233398437), np.float64(0.10495315551757822), np.float64(0.5260746765136719), np.float64(0.5153197726867677), np.float64(6.892352294921876e-10)), (np.float64(0.12252142333984367), np.float64(1.1049031555175781), np.float64(1.526024676513672), np.float64(0.01531982268676757), np.float64(1.942352294921875e-10)), (np.float64(0.09130267333984371), np.float64(0.042456280517578215), np.float64(1.338534051513672), np.float64(0.2340698008117676), np.float64(3.489227294921875e-10)), (np.float64(0.5908026733398437), np.float64(1.0424062805175782), np.float64(0.338584051513672), np.float64(0.7340697508117676), np.float64(8.439227294921875e-10)), (np.float64(0.8405526733398436), np.float64(0.5424312805175782), np.float64(0.8385590515136719), np.float64(0.4840697758117676), np.float64(5.964227294921875e-10)), (np.float64(0.3410526733398437), np.float64(1.5423812805175783), np.float64(1.838509051513672), np.float64(0.9840697258117677), np.float64(1.0142272949218747e-10)), (np.float64(0.4659276733398437), np.float64(0.7924187805175782), np.float64(0.08859655151367196), np.float64(0.10906981331176757), np.float64(7.201727294921876e-10)), (np.float64(0.9654276733398437), np.float64(1.7923687805175783), np.float64(1.088546551513672), np.float64(0.6090697633117677), np.float64(2.2517272949218748e-10)), (np.float64(0.7156776733398437), np.float64(0.29244378051757824), np.float64(1.5885215515136721), np.float64(0.3590697883117676), np.float64(4.726727294921876e-10)), (np.float64(0.21617767333984367), np.float64(1.2923937805175783), np.float64(0.588571551513672), np.float64(0.8590697383117676), np.float64(9.676727294921876e-10)), (np.float64(0.1537401733398437), np.float64(0.6674250305175782), np.float64(1.963502801513672), np.float64(0.5465697695617676), np.float64(7.820477294921875e-10)), (np.float64(0.6532401733398436), np.float64(1.667375030517578), np.float64(0.963552801513672), np.float64(0.04656981956176759), np.float64(2.870477294921875e-10)), (np.float64(0.9029901733398438), np.float64(0.16745003051757823), np.float64(0.463577801513672), np.float64(0.7965697445617677), np.float64(3.9547729492187466e-11)), (np.float64(0.4034901733398437), np.float64(1.1674000305175782), np.float64(1.463527801513672), np.float64(0.2965697945617676), np.float64(5.345477294921875e-10)), (np.float64(0.2786151733398437), np.float64(0.41743753051757826), np.float64(0.713565301513672), np.float64(0.6715697570617676), np.float64(1.6329772949218748e-10)), (np.float64(0.7781151733398437), np.float64(1.4173875305175783), np.float64(1.713515301513672), np.float64(0.1715698070617676), np.float64(6.582977294921875e-10)), (np.float64(0.5283651733398437), np.float64(0.9174125305175782), np.float64(1.2135403015136719), np.float64(0.9215697320617676), np.float64(9.057977294921876e-10)), (np.float64(0.028865173339843675), np.float64(1.917362530517578), np.float64(0.21359030151367198), np.float64(0.4215697820617676), np.float64(4.107977294921875e-10)), (np.float64(0.021060485839843712), np.float64(0.7455461242675783), np.float64(1.229164520263672), np.float64(0.0387573203430176), np.float64(6.196258544921875e-10)), (np.float64(0.5205604858398437), np.float64(1.7454961242675782), np.float64(0.22921452026367195), np.float64(0.5387572703430176), np.float64(1.2462585449218747e-10)), (np.float64(0.7703104858398437), np.float64(0.2455711242675782), np.float64(0.729189520263672), np.float64(0.2887572953430176), np.float64(3.721258544921875e-10)), (np.float64(0.2708104858398437), np.float64(1.2455211242675783), np.float64(1.7291395202636721), np.float64(0.7887572453430176), np.float64(8.671258544921875e-10)), (np.float64(0.3956854858398437), np.float64(0.49555862426757824), np.float64(0.479202020263672), np.float64(0.16375730784301756), np.float64(4.958758544921875e-10)), (np.float64(0.8951854858398437), np.float64(1.4955086242675781), np.float64(1.479152020263672), np.float64(0.6637572578430176), np.float64(9.908758544921877e-10)), (np.float64(0.6454354858398437), np.float64(0.9955336242675782), np.float64(1.979127020263672), np.float64(0.4137572828430176), np.float64(7.433758544921875e-10)), (np.float64(0.14593548583984367), np.float64(1.9954836242675782), np.float64(0.9791770202636719), np.float64(0.9137572328430177), np.float64(2.483758544921875e-10)), (np.float64(0.2083729858398437), np.float64(0.1205773742675782), np.float64(1.6041457702636719), np.float64(0.7262572515930177), np.float64(6.275085449218746e-11)), (np.float64(0.7078729858398437), np.float64(1.1205273742675783), np.float64(0.604195770263672), np.float64(0.2262573015930176), np.float64(5.577508544921876e-10)), (np.float64(0.9576229858398437), np.float64(0.6205523742675783), np.float64(0.10422077026367194), np.float64(0.9762572265930176), np.float64(8.052508544921875e-10)), (np.float64(0.4581229858398437), np.float64(1.6205023742675784), np.float64(1.104170770263672), np.float64(0.4762572765930176), np.float64(3.102508544921875e-10)), (np.float64(0.3332479858398437), np.float64(0.8705398742675783), np.float64(0.854183270263672), np.float64(0.6012572640930176), np.float64(9.290008544921876e-10)), (np.float64(0.8327479858398437), np.float64(1.8704898742675784), np.float64(1.854133270263672), np.float64(0.10125731409301758), np.float64(4.340008544921875e-10)), (np.float64(0.5829979858398437), np.float64(0.3705648742675782), np.float64(1.3541582702636719), np.float64(0.8512572390930176), np.float64(1.8650085449218747e-10)), (np.float64(0.08349798583984369), np.float64(1.3705148742675783), np.float64(0.35420827026367196), np.float64(0.35125728909301757), np.float64(6.815008544921876e-10)), (np.float64(0.11471673583984371), np.float64(0.3080679992675782), np.float64(0.541698895263672), np.float64(0.3825072859680176), np.float64(8.361883544921876e-10)), (np.float64(0.6142167358398437), np.float64(1.3080179992675782), np.float64(1.541648895263672), np.float64(0.8825072359680176), np.float64(3.4118835449218746e-10)), (np.float64(0.8639667358398437), np.float64(0.8080429992675782), np.float64(1.041673895263672), np.float64(0.1325073109680176), np.float64(9.368835449218749e-11)), (np.float64(0.3644667358398437), np.float64(1.8079929992675783), np.float64(0.04172389526367193), np.float64(0.6325072609680176), np.float64(5.886883544921875e-10)), (np.float64(0.4893417358398437), np.float64(0.5580554992675782), np.float64(1.791636395263672), np.float64(0.25750729846801756), np.float64(2.174383544921875e-10)), (np.float64(0.9888417358398437), np.float64(1.5580054992675783), np.float64(0.791686395263672), np.float64(0.7575072484680176), np.float64(7.124383544921875e-10)), (np.float64(0.7390917358398437), np.float64(0.05808049926757819), np.float64(0.29171139526367196), np.float64(0.007507323468017579), np.float64(9.599383544921875e-10)), (np.float64(0.23959173583984372), np.float64(1.0580304992675782), np.float64(1.291661395263672), np.float64(0.5075072734680176), np.float64(4.6493835449218753e-10)), (np.float64(0.1771542358398437), np.float64(0.9330367492675782), np.float64(0.16671764526367194), np.float64(0.8200072422180176), np.float64(2.793133544921875e-10)), (np.float64(0.6766542358398437), np.float64(1.9329867492675783), np.float64(1.166667645263672), np.float64(0.3200072922180176), np.float64(7.743133544921876e-10)), (np.float64(0.9264042358398437), np.float64(0.43306174926757823), np.float64(1.666642645263672), np.float64(0.5700072672180176), np.float64(5.268133544921875e-10)), (np.float64(0.4269042358398437), np.float64(1.4330117492675782), np.float64(0.666692645263672), np.float64(0.07000731721801756), np.float64(3.1813354492187485e-11)), (np.float64(0.3020292358398437), np.float64(0.1830742492675782), np.float64(1.416655145263672), np.float64(0.9450072297180176), np.float64(6.505633544921875e-10)), (np.float64(0.8015292358398437), np.float64(1.1830242492675782), np.float64(0.41670514526367197), np.float64(0.4450072797180176), np.float64(1.555633544921875e-10)), (np.float64(0.5517792358398437), np.float64(0.6830492492675782), np.float64(0.9166801452636719), np.float64(0.6950072547180176), np.float64(4.030633544921875e-10)), (np.float64(0.052279235839843674), np.float64(1.6829992492675783), np.float64(1.916630145263672), np.float64(0.19500730471801758), np.float64(8.980633544921876e-10)), (np.float64(0.03666986083984369), np.float64(0.21432268676757826), np.float64(0.01047545776367198), np.float64(0.6168822625305176), np.float64(1.7103210449218746e-10)), (np.float64(0.5361698608398437), np.float64(1.2142726867675782), np.float64(1.010425457763672), np.float64(0.11688231253051756), np.float64(6.660321044921875e-10)), (np.float64(0.7859198608398437), np.float64(0.7142976867675782), np.float64(1.510400457763672), np.float64(0.8668822375305176), np.float64(9.135321044921875e-10)), (np.float64(0.2864198608398437), np.float64(1.7142476867675782), np.float64(0.5104504577636719), np.float64(0.3668822875305176), np.float64(4.185321044921875e-10)), (np.float64(0.4112948608398437), np.float64(0.9642851867675782), np.float64(1.260412957763672), np.float64(0.7418822500305176), np.float64(7.897821044921875e-10)), (np.float64(0.9107948608398437), np.float64(1.9642351867675782), np.float64(0.260462957763672), np.float64(0.24188230003051758), np.float64(2.9478210449218747e-10)), (np.float64(0.6610448608398437), np.float64(0.4643101867675782), np.float64(0.760437957763672), np.float64(0.9918822250305177), np.float64(4.728210449218745e-11)), (np.float64(0.1615448608398437), np.float64(1.4642601867675782), np.float64(1.760387957763672), np.float64(0.4918822750305176), np.float64(5.422821044921875e-10)), (np.float64(0.22398236083984369), np.float64(0.5893039367675783), np.float64(0.6354442077636719), np.float64(0.1793823062805176), np.float64(7.279071044921876e-10)), (np.float64(0.7234823608398437), np.float64(1.5892539367675782), np.float64(1.6353942077636718), np.float64(0.6793822562805176), np.float64(2.3290710449218747e-10)), (np.float64(0.9732323608398437), np.float64(0.08932893676757825), np.float64(1.135419207763672), np.float64(0.4293822812805176), np.float64(4.804071044921875e-10)), (np.float64(0.4737323608398437), np.float64(1.0892789367675781), np.float64(0.135469207763672), np.float64(0.9293822312805176), np.float64(9.754071044921875e-10)), (np.float64(0.3488573608398437), np.float64(0.3393164367675783), np.float64(1.8853817077636719), np.float64(0.05438231878051758), np.float64(3.5665710449218753e-10)), (np.float64(0.8483573608398437), np.float64(1.3392664367675782), np.float64(0.885431707763672), np.float64(0.5543822687805176), np.float64(8.516571044921876e-10)), (np.float64(0.5986073608398437), np.float64(0.8392914367675782), np.float64(0.385456707763672), np.float64(0.3043822937805176), np.float64(6.041571044921876e-10)), (np.float64(0.09910736083984367), np.float64(1.8392414367675782), np.float64(1.385406707763672), np.float64(0.8043822437805177), np.float64(1.0915710449218745e-10)), (np.float64(0.06788861083984371), np.float64(0.7767945617675782), np.float64(1.697891082763672), np.float64(0.9606322281555176), np.float64(3.875946044921875e-10)), (np.float64(0.5673886108398437), np.float64(1.7767445617675781), np.float64(0.6979410827636721), np.float64(0.4606322781555176), np.float64(8.825946044921875e-10)), (np.float64(0.8171386108398437), np.float64(0.27681956176757827), np.float64(0.197966082763672), np.float64(0.7106322531555176), np.float64(6.350946044921875e-10)), (np.float64(0.3176386108398437), np.float64(1.2767695617675783), np.float64(1.197916082763672), np.float64(0.21063230315551756), np.float64(1.4009460449218748e-10)), (np.float64(0.4425136108398437), np.float64(0.02683206176757824), np.float64(0.947928582763672), np.float64(0.8356322406555177), np.float64(5.113446044921875e-10)), (np.float64(0.9420136108398437), np.float64(1.0267820617675782), np.float64(1.947878582763672), np.float64(0.3356322906555176), np.float64(1.634460449218742e-11)), (np.float64(0.6922636108398437), np.float64(0.5268070617675782), np.float64(1.447903582763672), np.float64(0.5856322656555176), np.float64(2.638446044921875e-10)), (np.float64(0.19276361083984367), np.float64(1.526757061767578), np.float64(0.44795358276367203), np.float64(0.0856323156555176), np.float64(7.588446044921876e-10)), (np.float64(0.1303261108398437), np.float64(0.4018133117675782), np.float64(1.0729223327636719), np.float64(0.2731322969055176), np.float64(9.444696044921876e-10)), (np.float64(0.6298261108398437), np.float64(1.4017633117675783), np.float64(0.07297233276367199), np.float64(0.7731322469055176), np.float64(4.494696044921875e-10)), (np.float64(0.8795761108398437), np.float64(0.9017883117675782), np.float64(0.572947332763672), np.float64(0.02313232190551756), np.float64(2.019696044921875e-10)), (np.float64(0.3800761108398437), np.float64(1.9017383117675783), np.float64(1.572897332763672), np.float64(0.5231322719055176), np.float64(6.969696044921875e-10)), (np.float64(0.2552011108398437), np.float64(0.6518008117675782), np.float64(0.322959832763672), np.float64(0.3981322844055176), np.float64(7.821960449218748e-11)), (np.float64(0.7547011108398437), np.float64(1.6517508117675783), np.float64(1.322909832763672), np.float64(0.8981322344055176), np.float64(5.732196044921875e-10)), (np.float64(0.5049511108398437), np.float64(0.15182581176757826), np.float64(1.822884832763672), np.float64(0.14813230940551758), np.float64(8.207196044921875e-10)), (np.float64(0.005451110839843676), np.float64(1.1517758117675783), np.float64(0.822934832763672), np.float64(0.6481322594055177), np.float64(3.257196044921875e-10)), (np.float64(0.007402282714843722), np.float64(0.1557318664550782), np.float64(1.014331512451172), np.float64(0.4938353998352051), np.float64(4.534851074218748e-11)), (np.float64(0.5069022827148437), np.float64(1.1556818664550783), np.float64(0.01438151245117203), np.float64(0.993835349835205), np.float64(5.403485107421875e-10)), (np.float64(0.7566522827148436), np.float64(0.6557068664550783), np.float64(0.514356512451172), np.float64(0.2438354248352051), np.float64(7.878485107421875e-10)), (np.float64(0.2571522827148437), np.float64(1.6556568664550784), np.float64(1.514306512451172), np.float64(0.7438353748352051), np.float64(2.928485107421875e-10)), (np.float64(0.3820272827148437), np.float64(0.9056943664550783), np.float64(0.26436901245117195), np.float64(0.3688354123352051), np.float64(9.115985107421876e-10)), (np.float64(0.8815272827148437), np.float64(1.9056443664550784), np.float64(1.264319012451172), np.float64(0.8688353623352052), np.float64(4.165985107421875e-10)), (np.float64(0.6317772827148437), np.float64(0.4057193664550782), np.float64(1.7642940124511721), np.float64(0.11883543733520507), np.float64(1.690985107421875e-10)), (np.float64(0.13227728271484368), np.float64(1.4056693664550783), np.float64(0.764344012451172), np.float64(0.6188353873352052), np.float64(6.640985107421876e-10)), (np.float64(0.19471478271484371), np.float64(0.5307131164550782), np.float64(1.6393002624511719), np.float64(0.806335368585205), np.float64(6.022235107421875e-10)), (np.float64(0.6942147827148437), np.float64(1.5306631164550781), np.float64(0.639350262451172), np.float64(0.3063354185852051), np.float64(1.0722351074218748e-10)), (np.float64(0.9439647827148436), np.float64(0.03073811645507818), np.float64(0.13937526245117193), np.float64(0.5563353935852051), np.float64(3.547235107421875e-10)), (np.float64(0.4444647827148437), np.float64(1.0306881164550783), np.float64(1.139325262451172), np.float64(0.05633544358520509), np.float64(8.497235107421876e-10)), (np.float64(0.31958978271484373), np.float64(0.2807256164550782), np.float64(0.889337762451172), np.float64(0.9313353560852051), np.float64(4.784735107421875e-10)), (np.float64(0.8190897827148437), np.float64(1.280675616455078), np.float64(1.889287762451172), np.float64(0.4313354060852051), np.float64(9.734735107421875e-10)), (np.float64(0.5693397827148436), np.float64(0.7807006164550783), np.float64(1.3893127624511719), np.float64(0.6813353810852051), np.float64(7.259735107421875e-10)), (np.float64(0.0698397827148437), np.float64(1.7806506164550782), np.float64(0.38936276245117196), np.float64(0.1813354310852051), np.float64(2.309735107421875e-10)), (np.float64(0.10105853271484372), np.float64(0.8431974914550782), np.float64(0.701847137451172), np.float64(0.08758544046020506), np.float64(2.6191101074218747e-10)), (np.float64(0.6005585327148437), np.float64(1.8431474914550783), np.float64(1.701797137451172), np.float64(0.5875853904602051), np.float64(7.569110107421876e-10)), (np.float64(0.8503085327148436), np.float64(0.3432224914550782), np.float64(1.201822137451172), np.float64(0.3375854154602051), np.float64(5.094110107421875e-10)), (np.float64(0.3508085327148437), np.float64(1.3431724914550782), np.float64(0.20187213745117194), np.float64(0.8375853654602051), np.float64(1.4411010742187501e-11)), (np.float64(0.4756835327148437), np.float64(0.09323499145507819), np.float64(1.951784637451172), np.float64(0.21258542796020508), np.float64(6.331610107421876e-10)), (np.float64(0.9751835327148437), np.float64(1.0931849914550782), np.float64(0.951834637451172), np.float64(0.7125853779602052), np.float64(1.3816101074218746e-10)), (np.float64(0.7254335327148437), np.float64(0.5932099914550782), np.float64(0.45185963745117197), np.float64(0.4625854029602051), np.float64(3.8566101074218754e-10)), (np.float64(0.22593353271484368), np.float64(1.5931599914550783), np.float64(1.451809637451172), np.float64(0.9625853529602051), np.float64(8.806610107421875e-10)), (np.float64(0.1634960327148437), np.float64(0.46821624145507823), np.float64(0.07687838745117193), np.float64(0.6500853842102051), np.float64(8.187860107421875e-10)), (np.float64(0.6629960327148436), np.float64(1.4681662414550782), np.float64(1.076828387451172), np.float64(0.1500854342102051), np.float64(3.237860107421875e-10)), (np.float64(0.9127460327148437), np.float64(0.9681912414550782), np.float64(1.576803387451172), np.float64(0.9000853592102052), np.float64(7.628601074218746e-11)), (np.float64(0.4132460327148437), np.float64(1.9681412414550783), np.float64(0.576853387451172), np.float64(0.4000854092102051), np.float64(5.712860107421875e-10)), (np.float64(0.28837103271484366), np.float64(0.7182037414550781), np.float64(1.326815887451172), np.float64(0.5250853967102052), np.float64(2.0003601074218747e-10)), (np.float64(0.7878710327148437), np.float64(1.7181537414550783), np.float64(0.32686588745117195), np.float64(0.025085446710205073), np.float64(6.950360107421875e-10)), (np.float64(0.5381210327148437), np.float64(0.2182287414550782), np.float64(0.826840887451172), np.float64(0.7750853717102051), np.float64(9.425360107421875e-10)), (np.float64(0.038621032714843684), np.float64(1.2181787414550782), np.float64(1.826790887451172), np.float64(0.2750854217102051), np.float64(4.475360107421875e-10))]
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.6727518920898437), 'tauR': np.float64(0.06589260864257818), 'tauF': np.float64(1.7057031921386718), 'cond': np.float64(2.909149169921875e-10), 'tau': np.float64(0.05017152164399008)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 1 error: 0.5413441384954454, params: [6.72751892e-01 6.58926086e-02 1.70570319e+00 7.61413498e-01
+ 2.90914917e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.1732518920898437), 'tauR': np.float64(1.0658426086425783), 'tauF': np.float64(0.7057531921386719), 'cond': np.float64(7.859149169921875e-10), 'tau': np.float64(0.2786256980173202)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 2 error: 0.6480609650965914, params: [1.73251892e-01 1.06584261e+00 7.05753192e-01 2.61413548e-01
+ 7.85914917e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.23568939208984369), 'tauR': np.float64(0.9408488586425783), 'tauF': np.float64(1.830696942138672), 'cond': np.float64(9.715399169921874e-10), 'tau': np.float64(0.06954149498775425)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 3 error: 0.7187428867822344, params: [2.35689392e-01 9.40848859e-01 1.83069694e+00 7.39135668e-02
+ 9.71539917e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.7351893920898437), 'tauR': np.float64(1.9407988586425784), 'tauF': np.float64(0.830746942138672), 'cond': np.float64(4.765399169921875e-10), 'tau': np.float64(1.1138506984181518)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 4 error: 1.1140411875531864, params: [7.35189392e-01 1.94079886e+00 8.30746942e-01 5.73913517e-01
+ 4.76539917e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.9849393920898437), 'tauR': np.float64(0.4408738586425782), 'tauF': np.float64(0.330771942138672), 'cond': np.float64(2.2903991699218748e-10), 'tau': np.float64(0.14280501305202675)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 5 error: 0.9396657823451341, params: [9.84939392e-01 4.40873859e-01 3.30771942e-01 3.23913542e-01
+ 2.29039917e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.4854393920898437), 'tauR': np.float64(1.4408238586425783), 'tauF': np.float64(1.330721942138672), 'cond': np.float64(7.240399169921875e-10), 'tau': np.float64(1.1871142164824242)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 6 error: 0.9744712002533054, params: [4.85439392e-01 1.44082386e+00 1.33072194e+00 8.23913492e-01
+ 7.24039917e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.3605643920898437), 'tauR': np.float64(0.1908863586425782), 'tauF': np.float64(0.5807594421386719), 'cond': np.float64(1.0528991699218746e-10), 'tau': np.float64(0.037969884070208626)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 7 error: 0.5565807940151611, params: [3.60564392e-01 1.90886359e-01 5.80759442e-01 1.98913554e-01
+ 1.05289917e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.8600643920898436), 'tauR': np.float64(1.1908363586425783), 'tauF': np.float64(1.580709442138672), 'cond': np.float64(6.002899169921875e-10), 'tau': np.float64(0.8322916124993561)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 8 error: 1.0726262207559643, params: [8.60064392e-01 1.19083636e+00 1.58070944e+00 6.98913504e-01
+ 6.00289917e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.6103143920898437), 'tauR': np.float64(0.6908613586425782), 'tauF': np.float64(1.080734442138672), 'cond': np.float64(8.477899169921875e-10), 'tau': np.float64(0.31013701078415734)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 9 error: 0.8324776577240052, params: [6.10314392e-01 6.90861359e-01 1.08073444e+00 4.48913529e-01
+ 8.47789917e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.11081439208984367), 'tauR': np.float64(1.6908113586425784), 'tauF': np.float64(0.08078444213867197), 'cond': np.float64(3.527899169921875e-10), 'tau': np.float64(1.6044336892158049)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 10 error: 0.517454505526195, params: [1.10814392e-01 1.69081136e+00 8.07844421e-02 9.48913479e-01
+ 3.52789917e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.07959564208984371), 'tauR': np.float64(0.6283644836425782), 'tauF': np.float64(0.7682500671386719), 'cond': np.float64(1.362274169921875e-10), 'tau': np.float64(0.49808158770808164)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 11 error: 0.38086876020286947, params: [7.95956421e-02 6.28364484e-01 7.68250067e-01 7.92663495e-01
+ 1.36227417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.5790956420898437), 'tauR': np.float64(1.6283144836425782), 'tauF': np.float64(1.768200067138672), 'cond': np.float64(6.312274169921875e-10), 'tau': np.float64(0.47654828908016167)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 12 error: 0.9537189116375691, params: [5.79095642e-01 1.62831448e+00 1.76820007e+00 2.92663545e-01
+ 6.31227417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.8288456420898437), 'tauR': np.float64(0.12838948364257818), 'tauF': np.float64(1.2682250671386721), 'cond': np.float64(8.787274169921876e-10), 'tau': np.float64(0.0696722891183516)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 13 error: 0.6763694638782513, params: [8.28845642e-01 1.28389484e-01 1.26822507e+00 5.42663520e-01
+ 8.78727417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.3293456420898437), 'tauR': np.float64(1.1283394836425782), 'tauF': np.float64(0.268275067138672), 'cond': np.float64(3.837274169921875e-10), 'tau': np.float64(0.04813899049043164)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 14 error: 0.6850289142937995, params: [3.29345642e-01 1.12833948e+00 2.68275067e-01 4.26635700e-02
+ 3.83727417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.4542206420898437), 'tauR': np.float64(0.3783769836425782), 'tauF': np.float64(1.5182125671386721), 'cond': np.float64(7.549774169921876e-10), 'tau': np.float64(0.3472227404892803)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 15 error: 0.7844686032415107, params: [4.54220642e-01 3.78376984e-01 1.51821257e+00 9.17663482e-01
+ 7.54977417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.9537206420898436), 'tauR': np.float64(1.3783269836425782), 'tauF': np.float64(0.518262567138672), 'cond': np.float64(2.599774169921875e-10), 'tau': np.float64(0.5756769168626104)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 16 error: 1.1356155289130057, params: [9.53720642e-01 1.37832698e+00 5.18262567e-01 4.17663532e-01
+ 2.59977417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.7039706420898437), 'tauR': np.float64(0.8783519836425783), 'tauF': np.float64(0.018287567138671967), 'cond': np.float64(1.247741699218748e-11), 'tau': np.float64(0.5864435661765705)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 17 error: 1.1347369557080402, params: [7.03970642e-01 8.78351984e-01 1.82875671e-02 6.67663507e-01
+ 1.24774170e-11] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.20447064208984367), 'tauR': np.float64(1.8783019836425783), 'tauF': np.float64(1.018237567138672), 'cond': np.float64(5.074774169921875e-10), 'tau': np.float64(0.3149227925474004)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 18 error: 0.6762220519317762, params: [2.04470642e-01 1.87830198e+00 1.01823757e+00 1.67663557e-01
+ 5.07477417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.1420331420898437), 'tauR': np.float64(0.0033957336425782803), 'tauF': np.float64(0.393268817138672), 'cond': np.float64(6.931024169921875e-10), 'tau': np.float64(0.001630507439864482)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 19 error: 0.46134744706183933, params: [1.42033142e-01 3.39573364e-03 3.93268817e-01 4.80163526e-01
+ 6.93102417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.6415331420898437), 'tauR': np.float64(1.0033457336425782), 'tauF': np.float64(1.393218817138672), 'cond': np.float64(1.981024169921875e-10), 'tau': np.float64(0.9834428421199494)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 20 error: 1.0575827788069012, params: [6.41533142e-01 1.00334573e+00 1.39321882e+00 9.80163476e-01
+ 1.98102417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.8912831420898437), 'tauR': np.float64(0.5033707336425782), 'tauF': np.float64(1.893193817138672), 'cond': np.float64(4.456024169921875e-10), 'tau': np.float64(0.11585759562652946)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 21 error: 0.8768910912745314, params: [8.91283142e-01 5.03370734e-01 1.89319382e+00 2.30163551e-01
+ 4.45602417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.39178314208984366), 'tauR': np.float64(1.5033207336425782), 'tauF': np.float64(0.893243817138672), 'cond': np.float64(9.406024169921875e-10), 'tau': np.float64(1.0976699303066144)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 22 error: 0.920342858134182, params: [3.91783142e-01 1.50332073e+00 8.93243817e-01 7.30163501e-01
+ 9.40602417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.2669081420898437), 'tauR': np.float64(0.7533582336425783), 'tauF': np.float64(1.1432313171386719), 'cond': np.float64(3.2185241699218746e-10), 'tau': np.float64(0.26756537617108195)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 23 error: 0.7015078365271974, params: [2.66908142e-01 7.53358234e-01 1.14323132e+00 3.55163539e-01
+ 3.21852417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.7664081420898436), 'tauR': np.float64(1.7533082336425783), 'tauF': np.float64(0.14328131713867198), 'cond': np.float64(8.168524169921876e-10), 'tau': np.float64(1.499365185852417)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 24 error: 1.1167675320208548, params: [7.66408142e-01 1.75330823e+00 1.43281317e-01 8.55163489e-01
+ 8.16852417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.5166581420898437), 'tauR': np.float64(0.2533832336425782), 'tauF': np.float64(0.643256317138672), 'cond': np.float64(5.693524169921875e-10), 'tau': np.float64(0.026646683832289502)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 25 error: 0.6281049192401938, params: [5.16658142e-01 2.53383234e-01 6.43256317e-01 1.05163564e-01
+ 5.69352417e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.017158142089843675), 'tauR': np.float64(1.2533332336425782), 'tauF': np.float64(1.643206317138672), 'cond': np.float64(7.435241699218749e-11), 'tau': np.float64(0.7584715435111244)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 26 error: 0.3623059750721543, params: [1.71581421e-02 1.25333323e+00 1.64320632e+00 6.05163514e-01
+ 7.43524170e-11] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.024962829589843694), 'tauR': np.float64(0.08151682739257826), 'tauF': np.float64(0.658880535888672), 'cond': np.float64(9.173992919921876e-10), 'tau': np.float64(0.07926296675578044)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+Action potential detected in trace. Penalising!
+------------sobol_scan_trail 27 error: 4.058004577632054, params: [2.49628296e-02 8.15168274e-02 6.58880536e-01 9.72350977e-01
+ 9.17399292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.5244628295898437), 'tauR': np.float64(1.0814668273925783), 'tauF': np.float64(1.6588305358886721), 'cond': np.float64(4.2239929199218753e-10), 'tau': np.float64(0.5108319665676261)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 28 error: 0.9046132583020541, params: [5.24462830e-01 1.08146683e+00 1.65883054e+00 4.72351027e-01
+ 4.22399292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.7742128295898437), 'tauR': np.float64(0.5814918273925782), 'tauF': np.float64(1.158855535888672), 'cond': np.float64(1.748992919921875e-10), 'tau': np.float64(0.4200412041623282)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 29 error: 0.9737046308132669, params: [7.74212830e-01 5.81491827e-01 1.15885554e+00 7.22351002e-01
+ 1.74899292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.27471282958984367), 'tauR': np.float64(1.5814418273925783), 'tauF': np.float64(0.15890553588867196), 'cond': np.float64(6.698992919921876e-10), 'tau': np.float64(0.3516352539716739)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 30 error: 0.76033941897866, params: [2.74712830e-01 1.58144183e+00 1.58905536e-01 2.22351052e-01
+ 6.69899292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.3995878295898437), 'tauR': np.float64(0.8314793273925782), 'tauF': np.float64(1.908818035888672), 'cond': np.float64(5.114929199218749e-11), 'tau': np.float64(0.7045548308012948)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 31 error: 0.9245634258277083, params: [3.99587830e-01 8.31479327e-01 1.90881804e+00 8.47350989e-01
+ 5.11492920e-11] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.8990878295898437), 'tauR': np.float64(1.8314293273925784), 'tauF': np.float64(0.9088680358886719), 'cond': np.float64(5.461492919921875e-10), 'tau': np.float64(0.6361488806106405)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 32 error: 1.1126862637887063, params: [8.99087830e-01 1.83142933e+00 9.08868036e-01 3.47351039e-01
+ 5.46149292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.6493378295898438), 'tauR': np.float64(0.3315043273925782), 'tauF': np.float64(0.408893035888672), 'cond': np.float64(7.936492919921876e-10), 'tau': np.float64(0.19802444627367416)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 33 error: 0.7740191848491468, params: [6.49337830e-01 3.31504327e-01 4.08893036e-01 5.97351014e-01
+ 7.93649292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.1498378295898437), 'tauR': np.float64(1.3314543273925783), 'tauF': np.float64(1.408843035888672), 'cond': np.float64(2.986492919921875e-10), 'tau': np.float64(0.1296184960830198)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 34 error: 0.5721577597754659, params: [1.49837830e-01 1.33145433e+00 1.40884304e+00 9.73510645e-02
+ 2.98649292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.2122753295898437), 'tauR': np.float64(0.7064855773925782), 'tauF': np.float64(0.03391178588867194), 'cond': np.float64(4.842742919921875e-10), 'tau': np.float64(0.2012431555160122)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 35 error: 0.48889322943748564, params: [2.12275330e-01 7.06485577e-01 3.39117859e-02 2.84851046e-01
+ 4.84274292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.7117753295898437), 'tauR': np.float64(1.7064355773925781), 'tauF': np.float64(1.033861785888672), 'cond': np.float64(9.792742919921875e-10), 'tau': np.float64(1.3392976620718784)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 36 error: 1.0755609628749745, params: [7.11775330e-01 1.70643558e+00 1.03386179e+00 7.84850996e-01
+ 9.79274292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.9615253295898437), 'tauR': np.float64(0.20651057739257828), 'tauF': np.float64(1.533836785888672), 'cond': np.float64(7.317742919921875e-10), 'tau': np.float64(0.007197114739954115)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 37 error: 0.6916664861770682, params: [9.61525330e-01 2.06510577e-01 1.53383679e+00 3.48510707e-02
+ 7.31774292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.4620253295898437), 'tauR': np.float64(1.2064605773925783), 'tauF': np.float64(0.533886785888672), 'cond': np.float64(2.367742919921875e-10), 'tau': np.float64(0.6452766712933203)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 38 error: 0.9608841526210732, params: [4.62025330e-01 1.20646058e+00 5.33886786e-01 5.34851021e-01
+ 2.36774292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.3371503295898437), 'tauR': np.float64(0.4564980773925782), 'tauF': np.float64(1.2838492858886719), 'cond': np.float64(6.080242919921875e-10), 'tau': np.float64(0.1870962086885195)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 39 error: 0.718908304775166, params: [3.37150330e-01 4.56498077e-01 1.28384929e+00 4.09851033e-01
+ 6.08024292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.8366503295898438), 'tauR': np.float64(1.4564480773925783), 'tauF': np.float64(0.28389928588867197), 'cond': np.float64(1.130242919921875e-10), 'tau': np.float64(1.3251507152443858)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 40 error: 1.193315004234641, params: [8.36650330e-01 1.45644808e+00 2.83899286e-01 9.09850983e-01
+ 1.13024292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.5869003295898437), 'tauR': np.float64(0.9564730773925783), 'tauF': np.float64(0.783874285888672), 'cond': np.float64(3.6052429199218747e-10), 'tau': np.float64(0.15289323359319237)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 41 error: 0.8495164482718097, params: [5.86900330e-01 9.56473077e-01 7.83874286e-01 1.59851058e-01
+ 3.60524292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.08740032958984367), 'tauR': np.float64(1.9564230773925781), 'tauF': np.float64(1.783824285888672), 'cond': np.float64(8.555242919921876e-10), 'tau': np.float64(1.2909477401490586)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 42 error: 0.7014491531016122, params: [8.74003296e-02 1.95642308e+00 1.78382429e+00 6.59851008e-01
+ 8.55524292e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.11861907958984369), 'tauR': np.float64(0.8939762023925782), 'tauF': np.float64(1.096358660888672), 'cond': np.float64(6.389617919921875e-10), 'tau': np.float64(0.5060808378923484)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 43 error: 0.6218223880465011, params: [1.18619080e-01 8.93976202e-01 1.09635866e+00 5.66101018e-01
+ 6.38961792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.6181190795898437), 'tauR': np.float64(1.8939262023925783), 'tauF': np.float64(0.09640866088867195), 'cond': np.float64(1.4396179199218747e-10), 'tau': np.float64(0.12519054395013154)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 44 error: 1.0368740962508631, params: [6.18119080e-01 1.89392620e+00 9.64086609e-02 6.61010676e-02
+ 1.43961792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.8678690795898437), 'tauR': np.float64(0.3940012023925782), 'tauF': np.float64(0.5963836608886719), 'cond': np.float64(3.914617919921875e-10), 'tau': np.float64(0.3215447723615818)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 45 error: 0.9090946641731157, params: [8.67869080e-01 3.94001202e-01 5.96383661e-01 8.16100993e-01
+ 3.91461792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.36836907958984366), 'tauR': np.float64(1.3939512023925782), 'tauF': np.float64(1.596333660888672), 'cond': np.float64(8.864617919921875e-10), 'tau': np.float64(0.4406294284218649)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 46 error: 0.7961445411390181, params: [3.68369080e-01 1.39395120e+00 1.59633366e+00 3.16101043e-01
+ 8.86461792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.4932440795898437), 'tauR': np.float64(0.14401370239257827), 'tauF': np.float64(0.346396160888672), 'cond': np.float64(2.677117919921875e-10), 'tau': np.float64(0.09952801447292776)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 47 error: 0.6106321559686505, params: [4.93244080e-01 1.44013702e-01 3.46396161e-01 6.91101005e-01
+ 2.67711792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.9927440795898437), 'tauR': np.float64(1.1439637023925782), 'tauF': np.float64(1.346346160888672), 'cond': np.float64(7.627117919921875e-10), 'tau': np.float64(0.21861267053321093)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 48 error: 1.007001830862858, params: [9.92744080e-01 1.14396370e+00 1.34634616e+00 1.91101055e-01
+ 7.62711792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.7429940795898438), 'tauR': np.float64(0.6439887023925782), 'tauF': np.float64(1.8463211608886718), 'cond': np.float64(5.152117919921875e-10), 'tau': np.float64(0.6060583990005484)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 49 error: 0.9474393749208847, params: [7.42994080e-01 6.43988702e-01 1.84632116e+00 9.41100980e-01
+ 5.15211792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+50 / 250 : minError = 0.362306
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.2434940795898437), 'tauR': np.float64(1.6439387023925782), 'tauF': np.float64(0.8463711608886719), 'cond': np.float64(2.021179199218746e-11), 'tau': np.float64(0.7251430550608315)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 50 error: 0.9034436384685793, params: [2.43494080e-01 1.64393870e+00 8.46371161e-01 4.41101030e-01
+ 2.02117920e-11] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.18105657958984367), 'tauR': np.float64(0.2690074523925782), 'tauF': np.float64(1.721327410888672), 'cond': np.float64(2.0583679199218748e-10), 'tau': np.float64(0.034594643891070066)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 51 error: 0.5216181880452948, params: [1.81056580e-01 2.69007452e-01 1.72132741e+00 1.28601061e-01
+ 2.05836792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.6805565795898437), 'tauR': np.float64(1.2689574523925782), 'tauF': np.float64(0.7213774108886719), 'cond': np.float64(7.008367919921876e-10), 'tau': np.float64(0.7976679379450613)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 52 error: 1.0133593152430698, params: [6.80556580e-01 1.26895745e+00 7.21377411e-01 6.28601011e-01
+ 7.00836792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.9303065795898438), 'tauR': np.float64(0.7689824523925782), 'tauF': np.float64(0.22140241088867196), 'cond': np.float64(9.483367919921876e-10), 'tau': np.float64(0.2911375534174407)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 53 error: 0.9250066216040874, params: [9.30306580e-01 7.68982452e-01 2.21402411e-01 3.78601036e-01
+ 9.48336792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.4308065795898437), 'tauR': np.float64(1.7689324523925782), 'tauF': np.float64(1.221352410888672), 'cond': np.float64(4.533367919921875e-10), 'tau': np.float64(1.5541857974739317)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 54 error: 1.0028772200614793, params: [4.30806580e-01 1.76893245e+00 1.22135241e+00 8.78600986e-01
+ 4.53336792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.3059315795898437), 'tauR': np.float64(0.5189949523925782), 'tauF': np.float64(0.9713649108886719), 'cond': np.float64(8.245867919921875e-10), 'tau': np.float64(0.0018689391558283513)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 55 error: 0.6610995012294226, params: [3.05931580e-01 5.18994952e-01 9.71364911e-01 3.60107386e-03
+ 8.24586792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.8054315795898437), 'tauR': np.float64(1.5189449523925782), 'tauF': np.float64(1.971314910888672), 'cond': np.float64(3.295867919921875e-10), 'tau': np.float64(0.7649422332098195)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 56 error: 1.102415099231905, params: [8.05431580e-01 1.51894495e+00 1.97131491e+00 5.03601024e-01
+ 3.29586792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.5556815795898437), 'tauR': np.float64(0.019019952392578254), 'tauF': np.float64(1.471339910888672), 'cond': np.float64(8.208679199218747e-11), 'tau': np.float64(0.004823479875999294)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 57 error: 0.3152955670134181, params: [5.55681580e-01 1.90199524e-02 1.47133991e+00 2.53601049e-01
+ 8.20867920e-11] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.05618157958984371), 'tauR': np.float64(1.0189699523925781), 'tauF': np.float64(0.471389910888672), 'cond': np.float64(5.770867919921875e-10), 'tau': np.float64(0.7678967739299905)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 58 error: 0.6138707529125345, params: [5.61815796e-02 1.01896995e+00 4.71389911e-01 7.53600999e-01
+ 5.77086792e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.040572204589843675), 'tauR': np.float64(0.6127402648925782), 'tauF': np.float64(1.5650852233886718), 'cond': np.float64(3.7599304199218753e-10), 'tau': np.float64(0.2607062963516189)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 59 error: 0.6412111111777907, params: [4.05722046e-02 6.12740265e-01 1.56508522e+00 4.25476032e-01
+ 3.75993042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.5400722045898437), 'tauR': np.float64(1.6126902648925783), 'tauF': np.float64(0.565135223388672), 'cond': np.float64(8.709930419921876e-10), 'tau': np.float64(1.4925061060329539)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 60 error: 1.032350945940319, params: [5.40072205e-01 1.61269026e+00 5.65135223e-01 9.25475982e-01
+ 8.70993042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.7898222045898438), 'tauR': np.float64(0.11276526489257821), 'tauF': np.float64(0.065160223388672), 'cond': np.float64(6.234930419921876e-10), 'tau': np.float64(0.01978760401282646)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 61 error: 0.5772021924190809, params: [7.89822205e-01 1.12765265e-01 6.51602234e-02 1.75476057e-01
+ 6.23493042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.2903222045898437), 'tauR': np.float64(1.1127152648925782), 'tauF': np.float64(1.065110223388672), 'cond': np.float64(1.2849304199218746e-10), 'tau': np.float64(0.7516124636916613)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 62 error: 0.8397585340072798, params: [2.90322205e-01 1.11271526e+00 1.06511022e+00 6.75476007e-01
+ 1.28493042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.4151972045898437), 'tauR': np.float64(0.36275276489257824), 'tauF': np.float64(0.815122723388672), 'cond': np.float64(7.472430419921875e-10), 'tau': np.float64(0.10899851580706645)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 63 error: 0.6920692080695459, params: [4.15197205e-01 3.62752765e-01 8.15122723e-01 3.00476044e-01
+ 7.47243042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.9146972045898437), 'tauR': np.float64(1.3627027648925782), 'tauF': np.float64(1.8150727233886719), 'cond': np.float64(2.5224304199218747e-10), 'tau': np.float64(1.0908108504871514)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 64 error: 1.163698317138821, params: [9.14697205e-01 1.36270276e+00 1.81507272e+00 8.00475994e-01
+ 2.52243042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.6649472045898437), 'tauR': np.float64(0.8627277648925782), 'tauF': np.float64(1.315097723388672), 'cond': np.float64(4.997430419921875e-10), 'tau': np.float64(0.04354710633658299)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 65 error: 0.8021104164584283, params: [6.64947205e-01 8.62727765e-01 1.31509772e+00 5.04760692e-02
+ 4.99743042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.1654472045898437), 'tauR': np.float64(1.8626777648925783), 'tauF': np.float64(0.31514772338867203), 'cond': np.float64(9.947430419921877e-10), 'tau': np.float64(1.025359441016668)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 66 error: 0.7801937166368088, params: [1.65447205e-01 1.86267776e+00 3.15147723e-01 5.50476019e-01
+ 9.94743042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.22788470458984372), 'tauR': np.float64(0.23775901489257822), 'tauF': np.float64(1.190103973388672), 'cond': np.float64(8.091180419921875e-10), 'tau': np.float64(0.20518032076408035)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 67 error: 0.7033981147781265, params: [2.27884705e-01 2.37759015e-01 1.19010397e+00 8.62975988e-01
+ 8.09118042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.7273847045898437), 'tauR': np.float64(1.2377090148925782), 'tauF': np.float64(0.19015397338867202), 'cond': np.float64(3.141180419921875e-10), 'tau': np.float64(0.4492587143249886)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 68 error: 1.0379164122084996, params: [7.27384705e-01 1.23770901e+00 1.90153973e-01 3.62976038e-01
+ 3.14118042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.9771347045898438), 'tauR': np.float64(0.7377340148925782), 'tauF': np.float64(0.690128973388672), 'cond': np.float64(6.661804199218745e-11), 'tau': np.float64(0.45221325504515936)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 69 error: 1.1094716572599825, params: [9.77134705e-01 7.37734015e-01 6.90128973e-01 6.12976013e-01
+ 6.66180420e-11] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.4776347045898437), 'tauR': np.float64(1.7376840148925783), 'tauF': np.float64(1.690078973388672), 'cond': np.float64(5.616180419921875e-10), 'tau': np.float64(0.19631669860356762)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 70 error: 0.8555278971085138, params: [4.77634705e-01 1.73768401e+00 1.69007897e+00 1.12976063e-01
+ 5.61618042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.35275970458984374), 'tauR': np.float64(0.9877215148925782), 'tauF': np.float64(0.44014147338867193), 'cond': np.float64(1.9036804199218746e-10), 'tau': np.float64(0.9758451271204436)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 71 error: 0.9216306826680621, params: [3.52759705e-01 9.87721515e-01 4.40141473e-01 9.87975975e-01
+ 1.90368042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.8522597045898437), 'tauR': np.float64(1.987671514892578), 'tauF': np.float64(1.440091473388672), 'cond': np.float64(6.853680419921875e-10), 'tau': np.float64(0.9699360456801017)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 72 error: 1.120485020981932, params: [8.52259705e-01 1.98767151e+00 1.44009147e+00 4.87976025e-01
+ 6.85368042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.6025097045898437), 'tauR': np.float64(0.48774651489257825), 'tauF': np.float64(1.940066473388672), 'cond': np.float64(9.328680419921874e-10), 'tau': np.float64(0.3599452222797762)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 73 error: 0.8345033623093655, params: [6.02509705e-01 4.87746515e-01 1.94006647e+00 7.37976000e-01
+ 9.32868042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.10300970458984371), 'tauR': np.float64(1.4876965148925783), 'tauF': np.float64(0.940116473388672), 'cond': np.float64(4.378680419921875e-10), 'tau': np.float64(0.35403614083943435)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 74 error: 0.5254884506918905, params: [1.03009705e-01 1.48769651e+00 9.40116473e-01 2.37976050e-01
+ 4.37868042e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.07179095458984369), 'tauR': np.float64(0.42524963989257825), 'tauF': np.float64(0.127657098388672), 'cond': np.float64(9.755554199218748e-11), 'tau': np.float64(0.008175880320483313)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 75 error: 0.19751504837150116, params: [7.17909546e-02 4.25249640e-01 1.27657098e-01 1.92260723e-02
+ 9.75555420e-11] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.5712909545898437), 'tauR': np.float64(1.4251996398925781), 'tauF': np.float64(1.127607098388672), 'cond': np.float64(5.925555419921875e-10), 'tau': np.float64(0.7400007399993181)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 76 error: 0.9805983631180405, params: [5.71290955e-01 1.42519964e+00 1.12760710e+00 5.19226022e-01
+ 5.92555542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.8210409545898437), 'tauR': np.float64(0.9252246398925782), 'tauF': np.float64(1.627582098388672), 'cond': np.float64(8.400555419921876e-10), 'tau': np.float64(0.24909457265927573)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 77 error: 0.9042087449430398, params: [8.21040955e-01 9.25224640e-01 1.62758210e+00 2.69226047e-01
+ 8.40055542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.32154095458984366), 'tauR': np.float64(1.9251746398925782), 'tauF': np.float64(0.627632098388672), 'cond': np.float64(3.450555419921875e-10), 'tau': np.float64(1.4808943823406107)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 78 error: 0.9548300514827155, params: [3.21540955e-01 1.92517464e+00 6.27632098e-01 7.69225997e-01
+ 3.45055542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.4464159545898437), 'tauR': np.float64(0.6752371398925783), 'tauF': np.float64(1.377594598388672), 'cond': np.float64(9.638055419921876e-10), 'tau': np.float64(0.09738679211472327)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 79 error: 0.7466686193349746, params: [4.46415955e-01 6.75237140e-01 1.37759460e+00 1.44226060e-01
+ 9.63805542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.9459159545898437), 'tauR': np.float64(1.6751871398925782), 'tauF': np.float64(0.3776445983886719), 'cond': np.float64(4.688055419921875e-10), 'tau': np.float64(1.0791991267948082)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 80 error: 1.1633891899032027, params: [9.45915955e-01 1.67518714e+00 3.77644598e-01 6.44226010e-01
+ 4.68805542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.6961659545898438), 'tauR': np.float64(0.17526213989257822), 'tauF': np.float64(0.877619598388672), 'cond': np.float64(2.213055419921875e-10), 'tau': np.float64(0.06909289845973796)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 81 error: 0.7328188845461369, params: [6.96165955e-01 1.75262140e-01 8.77619598e-01 3.94226035e-01
+ 2.21305542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.1966659545898437), 'tauR': np.float64(1.1752121398925781), 'tauF': np.float64(1.877569598388672), 'cond': np.float64(7.163055419921875e-10), 'tau': np.float64(1.0509052331398228)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 82 error: 0.7180528438833428, params: [1.96665955e-01 1.17521214e+00 1.87756960e+00 8.94225985e-01
+ 7.16305542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.13422845458984367), 'tauR': np.float64(0.8002308898925783), 'tauF': np.float64(0.502638348388672), 'cond': np.float64(5.306805419921875e-10), 'tau': np.float64(0.5655439787279551)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 83 error: 0.5665888747648524, params: [1.34228455e-01 8.00230890e-01 5.02638348e-01 7.06726004e-01
+ 5.30680542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.6337284545898437), 'tauR': np.float64(1.8001808898925782), 'tauF': np.float64(1.502588348388672), 'cond': np.float64(3.5680541992187424e-11), 'tau': np.float64(0.37214429103667573)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 84 error: 1.106047480429077, params: [6.33728455e-01 1.80018089e+00 1.50258835e+00 2.06726054e-01
+ 3.56805420e-11] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.8834784545898438), 'tauR': np.float64(0.30025588989257823), 'tauF': np.float64(1.0026133483886719), 'cond': np.float64(2.831805419921875e-10), 'tau': np.float64(0.28726261007171977)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 85 error: 0.9259857911880363, params: [8.83478455e-01 3.00255890e-01 1.00261335e+00 9.56725979e-01
+ 2.83180542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.3839784545898437), 'tauR': np.float64(1.3002058898925783), 'tauF': np.float64(0.0026633483886719933), 'cond': np.float64(7.781805419921876e-10), 'tau': np.float64(0.5938378723829405)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 86 error: 0.7744774999196821, params: [3.83978455e-01 1.30020589e+00 2.66334839e-03 4.56726029e-01
+ 7.78180542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.2591034545898437), 'tauR': np.float64(0.0502683898925782), 'tauF': np.float64(1.752575848388672), 'cond': np.float64(4.069305419921875e-10), 'tau': np.float64(0.0292424301852637)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 87 error: 0.4917151944869162, params: [2.59103455e-01 5.02683899e-02 1.75257585e+00 5.81726016e-01
+ 4.06930542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.7586034545898437), 'tauR': np.float64(1.0502183898925783), 'tauF': np.float64(0.752625848388672), 'cond': np.float64(9.019305419921875e-10), 'tau': np.float64(0.08583021749523437)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 88 error: 0.8362582334614002, params: [7.58603455e-01 1.05021839e+00 7.52625848e-01 8.17260660e-02
+ 9.01930542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.5088534545898437), 'tauR': np.float64(0.5502433898925783), 'tauF': np.float64(0.252650848388672), 'cond': np.float64(6.544305419921875e-10), 'tau': np.float64(0.4576517287749937)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 89 error: 0.7981979004342509, params: [5.08853455e-01 5.50243390e-01 2.52650848e-01 8.31725991e-01
+ 6.54430542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.009353454589843713), 'tauR': np.float64(1.5501933898925784), 'tauF': np.float64(1.252600848388672), 'cond': np.float64(1.594305419921875e-10), 'tau': np.float64(0.5142395160849643)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+------------sobol_scan_trail 90 error: 0.6121899736778358, params: [9.35345459e-03 1.55019339e+00 1.25260085e+00 3.31726041e-01
+ 1.59430542e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.013255798339843694), 'tauR': np.float64(0.4486859680175782), 'tauF': np.float64(1.8697574890136721), 'cond': np.float64(6.737664794921875e-10), 'tau': np.float64(0.35039894938300886)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
+NEURON actually completed?!
+Traceback (most recent call last):
+  File "/cfs/klemming/home/m/metog/snudda_test/synaptic_fitting/optimise_synapses_full.py", line 495, in find_trace_heights
+    fit_params, pcov = scipy.optimize.curve_fit(decay_func, t_ab_fit, v_ab_fit) # fit decay with each decay segment
+                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cfs/klemming/home/m/metog/miniconda3/envs/snudda_env/lib/python3.13/site-packages/scipy/optimize/_minpack_py.py", line 1026, in curve_fit
+    raise RuntimeError("Optimal parameters not found: " + errmsg)
+RuntimeError: Optimal parameters not found: Number of calls to function has reached maxfev = 800.
+
+!!! Failed to converge, trying with smaller decay constant
+Action potential detected in trace. Penalising!
+------------sobol_scan_trail 91 error: 3.8906533880477125, params: [1.32557983e-02 4.48685968e-01 1.86975749e+00 7.80944746e-01
+ 6.73766479e-10] (u, tau_r, tau_f, tau_ratio, cond)-------------
+Running with pars: OrderedDict({'tau1_ampa': 1.0925303972077076, 'tau2_ampa': 4.437072205337933, 'tau3_ampa': 119.98882942221262, 'I2_ampa': -1.9886844552485996, 'I3_ampa': -0.048026349597992034, 'tpeak_ampa': 2.063918378264594, 'factor_ampa': -1.0119232390299844, 'tau1_nmda': 1.8208839953461793, 'tau2_nmda': 33.567312186770074, 'tau3_nmda': 204.30443150344257, 'I2_nmda': 0.8477113681722652, 'I3_nmda': 0.2970225501393719, 'tpeak_nmda': 6.064414326277802, 'factor_nmda': 1.0471430189533268, 'nmda_ratio': 0.299937, 'U': np.float64(0.5127557983398437), 'tauR': np.float64(1.4486359680175782), 'tauF': np.float64(0.869807489013672), 'cond': np.float64(1.787664794921875e-10), 'tau': np.float64(0.4069867366929795)})
+Setting resting voltage to -79.000 mV
+About to start NEURON... stay safe
