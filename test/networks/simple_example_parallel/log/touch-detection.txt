@@ -1,0 +1,108 @@
+Starting log file
+setup_parallel: ipyparallel clients already setup, ignoring. Already have a log file setup, ignoring
+Using hdf5 driver version: latest
+Memory: 1165377536 free, 8589934592 total
+Each hyper voxel has 100 x 100 x 100 voxels
+Touch detecting all volumes
+Loading from networks/simple_example_parallel/network-config.json
+Reading random seed from config file: 387799215
+Reading prototype for: FS_0
+Reading prototype for: FS_1
+Reading prototype for: FS_2
+Reading prototype for: FS_3
+Reading prototype for: FS_4
+Reading prototype for: dSPN_0
+Reading prototype for: dSPN_1
+Reading prototype for: dSPN_2
+Reading prototype for: dSPN_3
+Reading prototype for: iSPN_0
+Reading prototype for: iSPN_1
+Reading prototype for: iSPN_2
+Reading prototype for: iSPN_3
+Loading connectivity information
+Memory: 1162313728 free, 8589934592 total
+Reading positions from file: networks/simple_example_parallel/network-neuron-positions.hdf5
+Memory: 1161199616 free, 8589934592 total
+Position file read.
+setup_parallel: d_view = <DirectView all>
+Setting up workers: 2025-12-11 20:38:52
+Scattering engine_logfile = ['networks/simple_example_parallel/log/touch-detection.txt-0', 'networks/simple_example_parallel/log/touch-detection.txt-1', 'networks/simple_example_parallel/log/touch-detection.txt-2', 'networks/simple_example_parallel/log/touch-detection.txt-3']
+Scatter done.
+Init values pushed to workers
+Workers setup: 2025-12-11 20:38:52
+Work history file: networks/simple_example_parallel/log/network-detect-worklog.hdf5
+Writing metadata to work history file
+Write neuron data to file
+Finding min/max coords parallel
+Execution of min/max complete
+Gathered min/max - complete.
+Distributing neurons, parallel.
+distribute_neurons: neuron_idx = [] (n=0)
+125 hyper voxels in total
+Pre allocation done.
+Gathering neuron distribution from workers
+Distributions received.
+Writing neuron distribution history to file
+Generating JSON hyper voxel data
+Memory: 1161003008 free, 8589934592 total
+Writing JSON hyper voxel data to file
+Save neuron distribution history done.
+Workers set up.
+Synchronising projection info to workers.
+!! about to loop projections
+Synchronising projection info to workers.
+Starting parallel_process_hyper_voxels
+setup_process_hyper_voxel_state_history: Creating new work history.
+Skipping 78 empty hyper voxels
+parallel_process_hyper_voxels: Using 4 worker
+2025-12-11 20:38:53 Starting hyper voxel 31 on worker 0
+2025-12-11 20:38:53 Starting hyper voxel 56 on worker 1
+2025-12-11 20:38:53 Starting hyper voxel 36 on worker 2
+2025-12-11 20:38:53 Starting hyper voxel 32 on worker 3
+Suppressing printouts for hyper voxels that complete in < 100 seconds.
+2025-12-11 20:38:57 Starting hyper voxel 61 on worker 3
+2025-12-11 20:38:58 Starting hyper voxel 57 on worker 2
+2025-12-11 20:38:58 Starting hyper voxel 37 on worker 1
+2025-12-11 20:38:59 Starting hyper voxel 62 on worker 3
+2025-12-11 20:38:59 Starting hyper voxel 30 on worker 2
+2025-12-11 20:39:00 Starting hyper voxel 35 on worker 1
+2025-12-11 20:39:00 Starting hyper voxel 6 on worker 2
+2025-12-11 20:39:01 Starting hyper voxel 26 on worker 1
+2025-12-11 20:39:01 Starting hyper voxel 55 on worker 2
+2025-12-11 20:39:01 Starting hyper voxel 51 on worker 3
+2025-12-11 20:39:01 Starting hyper voxel 27 on worker 1
+2025-12-11 20:39:02 Starting hyper voxel 11 on worker 0
+2025-12-11 20:39:02 Starting hyper voxel 60 on worker 2
+2025-12-11 20:39:02 Starting hyper voxel 52 on worker 3
+2025-12-11 20:39:02 Starting hyper voxel 7 on worker 1
+2025-12-11 20:39:03 Starting hyper voxel 12 on worker 2
+2025-12-11 20:39:03 Starting hyper voxel 41 on worker 0
+2025-12-11 20:39:03 Starting hyper voxel 81 on worker 3
+2025-12-11 20:39:03 Starting hyper voxel 25 on worker 1
+2025-12-11 20:39:04 Starting hyper voxel 86 on worker 0
+2025-12-11 20:39:04 Starting hyper voxel 66 on worker 2
+2025-12-11 20:39:04 Starting hyper voxel 42 on worker 3
+2025-12-11 20:39:04 Starting hyper voxel 82 on worker 1
+2025-12-11 20:39:05 Starting hyper voxel 58 on worker 2
+2025-12-11 20:39:05 Starting hyper voxel 67 on worker 0
+2025-12-11 20:39:05 Starting hyper voxel 87 on worker 1
+2025-12-11 20:39:05 Starting hyper voxel 33 on worker 3
+2025-12-11 20:39:06 Starting hyper voxel 5 on worker 0
+2025-12-11 20:39:06 Starting hyper voxel 38 on worker 2
+2025-12-11 20:39:06 Starting hyper voxel 63 on worker 3
+2025-12-11 20:39:06 Starting hyper voxel 10 on worker 1
+2025-12-11 20:39:07 Starting hyper voxel 1 on worker 2
+2025-12-11 20:39:07 Starting hyper voxel 68 on worker 0
+2025-12-11 20:39:07 Starting hyper voxel 85 on worker 1
+2025-12-11 20:39:07 Starting hyper voxel 65 on worker 3
+2025-12-11 20:39:08 Starting hyper voxel 76 on worker 0
+2025-12-11 20:39:08 Starting hyper voxel 2 on worker 2
+2025-12-11 20:39:08 Starting hyper voxel 80 on worker 3
+2025-12-11 20:39:08 Starting hyper voxel 40 on worker 1
+2025-12-11 20:39:08 Starting hyper voxel 50 on worker 2
+2025-12-11 20:39:09 Starting hyper voxel 15 on worker 0
+2025-12-11 20:39:09 Starting hyper voxel 77 on worker 1
+2025-12-11 20:39:09 Starting hyper voxel 0 on worker 3
+Voxel overflows: 0
+Total number of synapses: 1214744
+parallel_process_hyper_voxels: 16.5 s

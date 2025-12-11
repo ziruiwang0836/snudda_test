@@ -1,0 +1,99 @@
+Using hdf5 driver version: latest
+Memory: 1176682496 free, 8589934592 total
+Each hyper voxel has 100 x 100 x 100 voxels
+Touch detecting all volumes
+Loading from networks/simple_example_parallel/network-config.json
+Using random seed provided by command line: 387799215
+Reading prototype for: FS_0
+Reading prototype for: FS_1
+Reading prototype for: FS_2
+Reading prototype for: FS_3
+Reading prototype for: FS_4
+Reading prototype for: dSPN_0
+Reading prototype for: dSPN_1
+Reading prototype for: dSPN_2
+Reading prototype for: dSPN_3
+Reading prototype for: iSPN_0
+Reading prototype for: iSPN_1
+Reading prototype for: iSPN_2
+Reading prototype for: iSPN_3
+Loading connectivity information
+Memory: 1176682496 free, 8589934592 total
+Reading positions from file: networks/simple_example_parallel/network-neuron-positions.hdf5
+Memory: 1176682496 free, 8589934592 total
+Position file read.
+Finding minMax coord in volume_id = None
+distribute_neurons: neuron_idx = [147 148 130 328 362 286 333 193 155 325 330 225 345 336 254 194  57 384
+ 288  25 183 253 139  97 281 125 227 277  74  19 161  55 307  61 141  39
+ 382 110  95 136 164 215 105 180  78  43 291  63 323 132 203 290 242 195
+ 375 216  10   6 379 211  58 377  11 243 256  53 131 310  77   3  15 263
+  96  18 340  20 314 204 309 352 278 399  71 213  14 364 133 394 315 341
+ 240  16 342 179 113   0 359 335 360 388 134] (n=101)
+125 hyper voxels in total
+Pre allocation done.
+Calculated distribution of neurons: 0.7 seconds
+Processing hyper voxel : 56/125 (386 neurons)
+detect_synapses: 214630 took 1.5 s
+detect_gap_junctions: 0.2 s
+Wrote hyper voxel 56 (214630 synapses, 5 gap junctions)
+process_hyper_voxel: 56 took 4.9 s
+Processing hyper voxel : 37/125 (294 neurons)
+detect_synapses: 25061 took 0.2 s
+detect_gap_junctions: 0.1 s
+Wrote hyper voxel 37 (25061 synapses, 0 gap junctions)
+process_hyper_voxel: 37 took 1.7 s
+Processing hyper voxel : 35/125 (54 neurons)
+detect_synapses: 7 took 0.0 s
+detect_gap_junctions: 0.0 s
+Wrote hyper voxel 35 (7 synapses, 0 gap junctions)
+process_hyper_voxel: 35 took 0.6 s
+Processing hyper voxel : 26/125 (49 neurons)
+detect_synapses: 6 took 0.0 s
+detect_gap_junctions: 0.0 s
+Wrote hyper voxel 26 (6 synapses, 0 gap junctions)
+process_hyper_voxel: 26 took 0.8 s
+Processing hyper voxel : 27/125 (38 neurons)
+detect_synapses: 5 took 0.0 s
+detect_gap_junctions: 0.0 s
+Wrote hyper voxel 27 (5 synapses, 0 gap junctions)
+process_hyper_voxel: 27 took 0.8 s
+Processing hyper voxel : 7/125 (26 neurons)
+detect_synapses: 3 took 0.0 s
+detect_gap_junctions: 0.0 s
+Wrote hyper voxel 7 (3 synapses, 0 gap junctions)
+process_hyper_voxel: 7 took 0.9 s
+Processing hyper voxel : 25/125 (10 neurons)
+detect_synapses: 0 took 0.0 s
+detect_gap_junctions: 0.0 s
+Wrote hyper voxel 25 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 25 took 1.0 s
+Processing hyper voxel : 82/125 (7 neurons)
+detect_synapses: 0 took 0.0 s
+detect_gap_junctions: 0.0 s
+Wrote hyper voxel 82 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 82 took 1.0 s
+Processing hyper voxel : 87/125 (5 neurons)
+detect_synapses: 0 took 0.0 s
+detect_gap_junctions: 0.0 s
+Wrote hyper voxel 87 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 87 took 0.9 s
+Processing hyper voxel : 10/125 (3 neurons)
+detect_synapses: 0 took 0.0 s
+detect_gap_junctions: 0.0 s
+Wrote hyper voxel 10 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 10 took 0.8 s
+Processing hyper voxel : 85/125 (2 neurons)
+detect_synapses: 0 took 0.0 s
+detect_gap_junctions: 0.0 s
+Wrote hyper voxel 85 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 85 took 0.8 s
+Processing hyper voxel : 40/125 (1 neurons)
+detect_synapses: 0 took 0.0 s
+detect_gap_junctions: 0.0 s
+Wrote hyper voxel 40 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 40 took 0.8 s
+Processing hyper voxel : 77/125 (1 neurons)
+detect_synapses: 0 took 0.0 s
+detect_gap_junctions: 0.0 s
+Wrote hyper voxel 77 (0 synapses, 0 gap junctions)
+process_hyper_voxel: 77 took 0.7 s

@@ -1,0 +1,26 @@
+Starting log file
+setup_parallel: ipyparallel clients already setup, ignoring. Using hdf5 driver sec2, latest version
+Opening work history file: networks/simple_example_parallel/log/network-detect-worklog.hdf5
+Reading random seed from config file: 1950554525
+Using default scratch path: networks/simple_example_parallel/temp
+Skipping FS to LTS connection
+Skipping dSPN to ChIN connection
+Skipping iSPN to ChIN connection
+Skipping ChIN to dSPN connection
+Skipping ChIN to iSPN connection
+Skipping LTS to dSPN connection
+Skipping LTS to iSPN connection
+Skipping LTS to ChIN connection
+Setting up workers: 2025-12-11 20:39:10
+Workers setup: 2025-12-11 20:39:10
+gather_neuron_synapses took 0.7 s
+Workers already initialised.
+Writing to networks/simple_example_parallel/network-synapses.hdf5
+combine_files (synapses): 0.0s
+prune_synapses_parallel (45949/1214744 synapses, 3.8% kept): 1.3s
+Workers already initialised.
+combine_files (gap_junctions): 0.0s
+prune_synapses_parallel (2/8 gap_junctions, 25.0% kept): 0.0s
+Removing temp files from networks/simple_example_parallel/temp
+Removing temp files from networks/simple_example_parallel/voxels
+prune synapses and gap junctions: 2.0s

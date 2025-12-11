@@ -1,0 +1,616 @@
+Ca.cpp: ../mech/Ca.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Ca.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./Ca.o: Ca.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+CaDynamics_E2.cpp: ../mech/CaDynamics_E2.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "CaDynamics_E2.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./CaDynamics_E2.o: CaDynamics_E2.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+Ca_LVAst.cpp: ../mech/Ca_LVAst.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Ca_LVAst.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./Ca_LVAst.o: Ca_LVAst.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+DASyn.cpp: ../mech/DASyn.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "DASyn.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./DASyn.o: DASyn.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+Ih.cpp: ../mech/Ih.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Ih.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./Ih.o: Ih.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+Im.cpp: ../mech/Im.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Im.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./Im.o: Im.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+Im_ms.cpp: ../mech/Im_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Im_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./Im_ms.o: Im_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+K_Pst.cpp: ../mech/K_Pst.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "K_Pst.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./K_Pst.o: K_Pst.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+K_Tst.cpp: ../mech/K_Tst.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "K_Tst.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./K_Tst.o: K_Tst.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+Kv3_GPe.cpp: ../mech/Kv3_GPe.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Kv3_GPe.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./Kv3_GPe.o: Kv3_GPe.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+NO.cpp: ../mech/NO.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "NO.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./NO.o: NO.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+NaTa_t.cpp: ../mech/NaTa_t.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "NaTa_t.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./NaTa_t.o: NaTa_t.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+NaTs2_t.cpp: ../mech/NaTs2_t.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "NaTs2_t.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./NaTs2_t.o: NaTs2_t.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+Nap_Et2.cpp: ../mech/Nap_Et2.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Nap_Et2.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./Nap_Et2.o: Nap_Et2.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+SK_E2.cpp: ../mech/SK_E2.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "SK_E2.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./SK_E2.o: SK_E2.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+SKv3_1.cpp: ../mech/SKv3_1.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "SKv3_1.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./SKv3_1.o: SKv3_1.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+bk_ch.cpp: ../mech/bk_ch.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "bk_ch.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./bk_ch.o: bk_ch.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+bk_fs.cpp: ../mech/bk_fs.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "bk_fs.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./bk_fs.o: bk_fs.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+bk_ms.cpp: ../mech/bk_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "bk_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./bk_ms.o: bk_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+ca_ch.cpp: ../mech/ca_ch.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ca_ch.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./ca_ch.o: ca_ch.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+cadyn_fs.cpp: ../mech/cadyn_fs.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cadyn_fs.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./cadyn_fs.o: cadyn_fs.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+cadyn_ms.cpp: ../mech/cadyn_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cadyn_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./cadyn_ms.o: cadyn_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+cal12_ms.cpp: ../mech/cal12_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cal12_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./cal12_ms.o: cal12_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+cal13_ms.cpp: ../mech/cal13_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cal13_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./cal13_ms.o: cal13_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+cal_ch.cpp: ../mech/cal_ch.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cal_ch.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./cal_ch.o: cal_ch.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+caldyn_ms.cpp: ../mech/caldyn_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "caldyn_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./caldyn_ms.o: caldyn_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+can_fs.cpp: ../mech/can_fs.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "can_fs.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./can_fs.o: can_fs.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+can_ms.cpp: ../mech/can_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "can_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./can_ms.o: can_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+cap_ch.cpp: ../mech/cap_ch.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cap_ch.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./cap_ch.o: cap_ch.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+caq_fs.cpp: ../mech/caq_fs.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "caq_fs.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./caq_fs.o: caq_fs.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+caq_ms.cpp: ../mech/caq_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "caq_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./caq_ms.o: caq_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+car_fs.cpp: ../mech/car_fs.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "car_fs.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./car_fs.o: car_fs.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+car_ms.cpp: ../mech/car_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "car_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./car_ms.o: car_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+cat32_ms.cpp: ../mech/cat32_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cat32_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./cat32_ms.o: cat32_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+cat33_ms.cpp: ../mech/cat33_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "cat33_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./cat33_ms.o: cat33_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+hcn12_ch.cpp: ../mech/hcn12_ch.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "hcn12_ch.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./hcn12_ch.o: hcn12_ch.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+hd_lts.cpp: ../mech/hd_lts.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "hd_lts.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./hd_lts.o: hd_lts.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+im_lts.cpp: ../mech/im_lts.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "im_lts.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./im_lts.o: im_lts.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+insert_ik_ina_ica.cpp: ../mech/insert_ik_ina_ica.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "insert_ik_ina_ica.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./insert_ik_ina_ica.o: insert_ik_ina_ica.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+it_lts.cpp: ../mech/it_lts.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "it_lts.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./it_lts.o: it_lts.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kaf_fs.cpp: ../mech/kaf_fs.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kaf_fs.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kaf_fs.o: kaf_fs.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kaf_lts.cpp: ../mech/kaf_lts.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kaf_lts.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kaf_lts.o: kaf_lts.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kaf_ms.cpp: ../mech/kaf_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kaf_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kaf_ms.o: kaf_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kas_fs.cpp: ../mech/kas_fs.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kas_fs.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kas_fs.o: kas_fs.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kas_ms.cpp: ../mech/kas_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kas_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kas_ms.o: kas_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kcnq_ch.cpp: ../mech/kcnq_ch.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kcnq_ch.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kcnq_ch.o: kcnq_ch.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kdb_lts.cpp: ../mech/kdb_lts.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kdb_lts.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kdb_lts.o: kdb_lts.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kdr_fs.cpp: ../mech/kdr_fs.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kdr_fs.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kdr_fs.o: kdr_fs.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kdr_lts.cpp: ../mech/kdr_lts.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kdr_lts.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kdr_lts.o: kdr_lts.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kdr_ms.cpp: ../mech/kdr_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kdr_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kdr_ms.o: kdr_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kdrb_lts.cpp: ../mech/kdrb_lts.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kdrb_lts.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kdrb_lts.o: kdrb_lts.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kir.cpp: ../mech/kir.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kir.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kir.o: kir.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kir23_ch.cpp: ../mech/kir23_ch.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kir23_ch.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kir23_ch.o: kir23_ch.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kir23_lts.cpp: ../mech/kir23_lts.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kir23_lts.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kir23_lts.o: kir23_lts.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kir2_ch.cpp: ../mech/kir2_ch.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kir2_ch.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kir2_ch.o: kir2_ch.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kir_fs.cpp: ../mech/kir_fs.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kir_fs.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kir_fs.o: kir_fs.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kir_ms.cpp: ../mech/kir_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kir_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kir_ms.o: kir_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kv2_ch.cpp: ../mech/kv2_ch.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kv2_ch.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kv2_ch.o: kv2_ch.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+kv4_ch.cpp: ../mech/kv4_ch.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "kv4_ch.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./kv4_ch.o: kv4_ch.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+nACh.cpp: ../mech/nACh.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "nACh.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./nACh.o: nACh.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+na2_ch.cpp: ../mech/na2_ch.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "na2_ch.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./na2_ch.o: na2_ch.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+na3_lts.cpp: ../mech/na3_lts.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "na3_lts.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./na3_lts.o: na3_lts.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+na_ch.cpp: ../mech/na_ch.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "na_ch.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./na_ch.o: na_ch.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+naf_fs.cpp: ../mech/naf_fs.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "naf_fs.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./naf_fs.o: naf_fs.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+naf_lts.cpp: ../mech/naf_lts.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "naf_lts.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./naf_lts.o: naf_lts.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+naf_ms.cpp: ../mech/naf_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "naf_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./naf_ms.o: naf_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+naf_th.cpp: ../mech/naf_th.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "naf_th.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./naf_th.o: naf_th.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+par_ggap.cpp: ../mech/par_ggap.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "par_ggap.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./par_ggap.o: par_ggap.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+pka_buffer.cpp: ../mech/pka_buffer.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "pka_buffer.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./pka_buffer.o: pka_buffer.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+sk_ch.cpp: ../mech/sk_ch.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "sk_ch.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./sk_ch.o: sk_ch.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+sk_fs.cpp: ../mech/sk_fs.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "sk_fs.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./sk_fs.o: sk_fs.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+sk_ms.cpp: ../mech/sk_ms.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "sk_ms.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./sk_ms.o: sk_ms.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+tmgabaa.cpp: ../mech/tmgabaa.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "tmgabaa.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./tmgabaa.o: tmgabaa.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+tmglut.cpp: ../mech/tmglut.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "tmglut.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./tmglut.o: tmglut.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+tmglut_M1RH_D1.cpp: ../mech/tmglut_M1RH_D1.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "tmglut_M1RH_D1.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./tmglut_M1RH_D1.o: tmglut_M1RH_D1.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+tmglut_double.cpp: ../mech/tmglut_double.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "tmglut_double.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./tmglut_double.o: tmglut_double.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+
+vecevent.cpp: ../mech/vecevent.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mech";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "vecevent.mod"  -o "/Users/peirui/snudda_test/test/arm64" )
+
+./vecevent.o: vecevent.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /Users/peirui/snudda_test/test/arm64/$<\\n"
+	$(CXXCOMPILE) -I"../mech" $(INCLUDES) -fPIC -c "/Users/peirui/snudda_test/test/arm64/$<" -o $@
+

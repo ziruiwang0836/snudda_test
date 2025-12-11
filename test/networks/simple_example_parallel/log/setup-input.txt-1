@@ -1,0 +1,5 @@
+Time = 10
+Using hdf5 version latest
+Reading config file networks/simple_example_parallel/network-config.json
+Using random seed provided by command line: 2259100799
+Execution done on workers
