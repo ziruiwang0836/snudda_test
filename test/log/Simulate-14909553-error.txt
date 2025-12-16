@@ -1,0 +1,180 @@
+Lmod has detected the following error: Swap failed: "PrgEnv-cray" is not
+loaded.
+
+
+
+rm: cannot remove '/cfs/klemming/scratch/m/metog/.ipython': No such file or directory
+Translating bk_fs.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/bk_fs.cpp
+Translating bk_ch.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/bk_ch.cpp
+Translating bk_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/bk_ms.cpp
+Notice: Assignment to the GLOBAL variable, "htau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "hinf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "mtau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "minf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "zinf", is not thread safe
+Thread Safe
+Thread Safe
+Translating ca_ch.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/ca_ch.cpp
+Translating CaDynamics_E2.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/CaDynamics_E2.cpp
+Notice: Assignment to the GLOBAL variable, "vol", is not thread safe
+Translating cadyn_fs.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cadyn_fs.cpp
+Thread Safe
+Thread Safe
+Translating cadyn_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cadyn_ms.cpp
+Translating cal12_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cal12_ms.cpp
+Translating cal13_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cal13_ms.cpp
+Thread Safe
+Thread Safe
+Thread Safe
+Translating Ca_LVAst.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Ca_LVAst.cpp
+Translating cal_ch.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cal_ch.cpp
+Translating caldyn_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/caldyn_ms.cpp
+Thread Safe
+Thread Safe
+Thread Safe
+Translating Ca.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Ca.cpp
+Thread Safe
+Translating can_fs.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/can_fs.cpp
+Thread Safe
+Translating can_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/can_ms.cpp
+Thread Safe
+Translating cap_ch.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cap_ch.cpp
+Thread Safe
+Translating caq_fs.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/caq_fs.cpp
+Thread Safe
+Translating caq_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/caq_ms.cpp
+Thread Safe
+Translating car_fs.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/car_fs.cpp
+Thread Safe
+Translating car_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/car_ms.cpp
+Thread Safe
+Translating cat32_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cat32_ms.cpp
+Thread Safe
+Translating cat33_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cat33_ms.cpp
+Thread Safe
+Translating DASyn.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/DASyn.cpp
+Thread Safe
+Translating hcn12_ch.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/hcn12_ch.cpp
+NEURON's CVode method ignores conservation
+Thread Safe
+Translating hd_lts.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/hd_lts.cpp
+Thread Safe
+Translating Ih.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Ih.cpp
+Thread Safe
+Translating im_lts.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/im_lts.cpp
+Thread Safe
+Translating Im.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Im.cpp
+Thread Safe
+Translating Im_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Im_ms.cpp
+Thread Safe
+Translating insert_ik_ina_ica.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/insert_ik_ina_ica.cpp
+Thread Safe
+Translating it_lts.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/it_lts.cpp
+Translating kaf_fs.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kaf_fs.cpp
+Thread Safe
+Thread Safe
+Translating kaf_lts.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kaf_lts.cpp
+Thread Safe
+Translating kaf_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kaf_ms.cpp
+Translating kas_fs.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kas_fs.cpp
+Thread Safe
+Thread Safe
+Translating kas_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kas_ms.cpp
+Thread Safe
+Translating kcnq_ch.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kcnq_ch.cpp
+Translating kdb_lts.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kdb_lts.cpp
+NEURON's CVode method ignores conservation
+Notice: Assignment to the GLOBAL variable, "ninf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taun", is not thread safe
+Thread Safe
+Translating kdrb_lts.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kdrb_lts.cpp
+Notice: Assignment to the GLOBAL variable, "ninf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taun", is not thread safe
+Translating kdr_fs.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kdr_fs.cpp
+Thread Safe
+Translating kdr_lts.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kdr_lts.cpp
+Thread Safe
+Translating kdr_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kdr_ms.cpp
+Thread Safe
+Translating kir23_ch.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kir23_ch.cpp
+Thread Safe
+Translating kir23_lts.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kir23_lts.cpp
+Thread Safe
+Translating kir2_ch.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kir2_ch.cpp
+Thread Safe
+Translating kir_fs.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kir_fs.cpp
+Thread Safe
+Translating kir.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kir.cpp
+Thread Safe
+Translating kir_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kir_ms.cpp
+Thread Safe
+Translating K_Pst.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/K_Pst.cpp
+Thread Safe
+Translating K_Tst.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/K_Tst.cpp
+Thread Safe
+Translating kv2_ch.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kv2_ch.cpp
+NEURON's CVode method ignores conservation
+Thread Safe
+Translating Kv3_GPe.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Kv3_GPe.cpp
+Translating kv4_ch.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kv4_ch.cpp
+NEURON's CVode method ignores conservation
+Thread Safe
+Notice: Assignment to the GLOBAL variable, "alpha", is not thread safe
+Notice: Assignment to the GLOBAL variable, "beta", is not thread safe
+Translating na2_ch.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/na2_ch.cpp
+NEURON's CVode method ignores conservation
+Thread Safe
+Translating na3_lts.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/na3_lts.cpp
+Translating na_ch.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/na_ch.cpp
+Thread Safe
+NEURON's CVode method ignores conservation
+Thread Safe
+Translating nACh.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/nACh.cpp
+Notice: VERBATIM blocks are not thread safe
+Translating naf_fs.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/naf_fs.cpp
+Thread Safe
+Translating naf_lts.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/naf_lts.cpp
+Thread Safe
+Translating naf_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/naf_ms.cpp
+Thread Safe
+Translating naf_th.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/naf_th.cpp
+Thread Safe
+Translating Nap_Et2.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Nap_Et2.cpp
+Thread Safe
+Translating NaTa_t.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/NaTa_t.cpp
+Thread Safe
+Translating NaTs2_t.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/NaTs2_t.cpp
+Thread Safe
+Translating NO.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/NO.cpp
+Thread Safe
+Translating par_ggap.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/par_ggap.cpp
+Thread Safe
+Translating pka_buffer.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/pka_buffer.cpp
+Thread Safe
+Translating sk_ch.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/sk_ch.cpp
+Thread Safe
+Translating SK_E2.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/SK_E2.cpp
+Thread Safe
+Translating sk_fs.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/sk_fs.cpp
+Thread Safe
+Translating sk_ms.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/sk_ms.cpp
+Thread Safe
+Translating SKv3_1.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/SKv3_1.cpp
+Thread Safe
+Translating tmgabaa.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/tmgabaa.cpp
+Thread Safe
+Translating tmglut_double.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/tmglut_double.cpp
+Translating tmglut_M1RH_D1.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/tmglut_M1RH_D1.cpp
+Thread Safe
+Thread Safe
+Translating tmglut.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/tmglut.cpp
+Thread Safe
+Translating vecevent.mod into /cfs/klemming/home/m/metog/snudda_test/test/x86_64/vecevent.cpp
+Notice: Use of POINTER is not thread safe.
+Notice: VERBATIM blocks are not thread safe
+NEURON -- VERSION 9.0.1 HEAD (b12a541+) 2025-11-14
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2022
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ "mechanisms//bk_ch.mod" "mechanisms//bk_fs.mod" "mechanisms//bk_ms.mod" "mechanisms//ca_ch.mod" "mechanisms//CaDynamics_E2.mod" "mechanisms//cadyn_fs.mod" "mechanisms//cadyn_ms.mod" "mechanisms//cal12_ms.mod" "mechanisms//cal13_ms.mod" "mechanisms//cal_ch.mod" "mechanisms//caldyn_ms.mod" "mechanisms//Ca_LVAst.mod" "mechanisms//Ca.mod" "mechanisms//can_fs.mod" "mechanisms//can_ms.mod" "mechanisms//cap_ch.mod" "mechanisms//caq_fs.mod" "mechanisms//caq_ms.mod" "mechanisms//car_fs.mod" "mechanisms//car_ms.mod" "mechanisms//cat32_ms.mod" "mechanisms//cat33_ms.mod" "mechanisms//DASyn.mod" "mechanisms//hcn12_ch.mod" "mechanisms//hd_lts.mod" "mechanisms//Ih.mod" "mechanisms//im_lts.mod" "mechanisms//Im.mod" "mechanisms//Im_ms.mod" "mechanisms//insert_ik_ina_ica.mod" "mechanisms//it_lts.mod" "mechanisms//kaf_fs.mod" "mechanisms//kaf_lts.mod" "mechanisms//kaf_ms.mod" "mechanisms//kas_fs.mod" "mechanisms//kas_ms.mod" "mechanisms//kcnq_ch.mod" "mechanisms//kdb_lts.mod" "mechanisms//kdrb_lts.mod" "mechanisms//kdr_fs.mod" "mechanisms//kdr_lts.mod" "mechanisms//kdr_ms.mod" "mechanisms//kir23_ch.mod" "mechanisms//kir23_lts.mod" "mechanisms//kir2_ch.mod" "mechanisms//kir_fs.mod" "mechanisms//kir.mod" "mechanisms//kir_ms.mod" "mechanisms//K_Pst.mod" "mechanisms//K_Tst.mod" "mechanisms//kv2_ch.mod" "mechanisms//Kv3_GPe.mod" "mechanisms//kv4_ch.mod" "mechanisms//na2_ch.mod" "mechanisms//na3_lts.mod" "mechanisms//na_ch.mod" "mechanisms//nACh.mod" "mechanisms//naf_fs.mod" "mechanisms//naf_lts.mod" "mechanisms//naf_ms.mod" "mechanisms//naf_th.mod" "mechanisms//Nap_Et2.mod" "mechanisms//NaTa_t.mod" "mechanisms//NaTs2_t.mod" "mechanisms//NO.mod" "mechanisms//par_ggap.mod" "mechanisms//pka_buffer.mod" "mechanisms//sk_ch.mod" "mechanisms//SK_E2.mod" "mechanisms//sk_fs.mod" "mechanisms//sk_ms.mod" "mechanisms//SKv3_1.mod" "mechanisms//tmgabaa.mod" "mechanisms//tmglut_double.mod" "mechanisms//tmglut_M1RH_D1.mod" "mechanisms//tmglut.mod" "mechanisms//vecevent.mod"

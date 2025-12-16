@@ -23,9 +23,11 @@ module swap PrgEnv-cray PrgEnv-gnu
 module load cray-mpich-abi
 module unload cray-libsci
 
-# Activate your conda env
-source ~/.bashrc
-conda activate snudda_env
+# Activate your vir env
+export IPYTHONDIR="/cfs/klemming/scratch/${USER:0:1}/$USER/.ipython"
+rm -r $IPYTHONDIR
+export IPYTHON_PROFILE=default
+source $HOME/snudda_env/bin/activate
 
 # Snudda base dir
 SNUDDA_DIR=/cfs/klemming/home/"${USER:0:1}"/$USER/Snudda
@@ -37,7 +39,7 @@ cd /cfs/klemming/home/${USER:0:1}/$USER/snudda_test/test
 if [[ -d "/cfs/klemming/home/${USER:0:1}/$USER/BasalGangliaData/data" ]]; then
     export SNUDDA_DATA="/cfs/klemming/home/${USER:0:1}/$USER/BasalGangliaData/data"
     echo "Setting SNUDDA_DATA to $SNUDDA_DATA"
-    rm -rf mech
+    rm -rf mechanisms
     ln -s "$SNUDDA_DATA/neurons/mechanisms/" mechanisms
 else
     echo "SNUDDA_DATA environment variable not changed (may be empty): $SNUDDA_DATA"
@@ -57,6 +59,11 @@ echo "network creation complete"
 NETWORK_DIR=/cfs/klemming/home/${USER:0:1}/$USER/snudda_test/test/networks/simple_example_parallel
 NETWORK_INFO_FILE=$NETWORK_DIR/network-synapses.hdf5
 NETWORK_INPUT_FILE=$NETWORK_DIR/input-spikes.hdf5
+
+# 2025-07: Explicitly adding MPI paths (suggested by ChatGTP, why are they not loaded automatically?)
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CRAY_LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/opt/cray/pe/mpich/8.1.31/ofi/gnu/12.3/lib:$LD_LIBRARY_PATH
+export MPI_LIB_NRN_PATH=/opt/cray/pe/mpich/8.1.31/ofi/gnu/12.3/lib
 
 echo "Network dir: $NETWORK_DIR"
 

@@ -1,0 +1,437 @@
+Setting SNUDDA_DATA to /cfs/klemming/home/m/metog/BasalGangliaData/data
+/cfs/klemming/home/m/metog/snudda_test/test
+cfiles =
+Mod files: "mechanisms//bk_ch.mod" "mechanisms//bk_fs.mod" "mechanisms//bk_ms.mod" "mechanisms//ca_ch.mod" "mechanisms//CaDynamics_E2.mod" "mechanisms//cadyn_fs.mod" "mechanisms//cadyn_ms.mod" "mechanisms//cal12_ms.mod" "mechanisms//cal13_ms.mod" "mechanisms//cal_ch.mod" "mechanisms//caldyn_ms.mod" "mechanisms//Ca_LVAst.mod" "mechanisms//Ca.mod" "mechanisms//can_fs.mod" "mechanisms//can_ms.mod" "mechanisms//cap_ch.mod" "mechanisms//caq_fs.mod" "mechanisms//caq_ms.mod" "mechanisms//car_fs.mod" "mechanisms//car_ms.mod" "mechanisms//cat32_ms.mod" "mechanisms//cat33_ms.mod" "mechanisms//DASyn.mod" "mechanisms//hcn12_ch.mod" "mechanisms//hd_lts.mod" "mechanisms//Ih.mod" "mechanisms//im_lts.mod" "mechanisms//Im.mod" "mechanisms//Im_ms.mod" "mechanisms//insert_ik_ina_ica.mod" "mechanisms//it_lts.mod" "mechanisms//kaf_fs.mod" "mechanisms//kaf_lts.mod" "mechanisms//kaf_ms.mod" "mechanisms//kas_fs.mod" "mechanisms//kas_ms.mod" "mechanisms//kcnq_ch.mod" "mechanisms//kdb_lts.mod" "mechanisms//kdrb_lts.mod" "mechanisms//kdr_fs.mod" "mechanisms//kdr_lts.mod" "mechanisms//kdr_ms.mod" "mechanisms//kir23_ch.mod" "mechanisms//kir23_lts.mod" "mechanisms//kir2_ch.mod" "mechanisms//kir_fs.mod" "mechanisms//kir.mod" "mechanisms//kir_ms.mod" "mechanisms//K_Pst.mod" "mechanisms//K_Tst.mod" "mechanisms//kv2_ch.mod" "mechanisms//Kv3_GPe.mod" "mechanisms//kv4_ch.mod" "mechanisms//na2_ch.mod" "mechanisms//na3_lts.mod" "mechanisms//na_ch.mod" "mechanisms//nACh.mod" "mechanisms//naf_fs.mod" "mechanisms//naf_lts.mod" "mechanisms//naf_ms.mod" "mechanisms//naf_th.mod" "mechanisms//Nap_Et2.mod" "mechanisms//NaTa_t.mod" "mechanisms//NaTs2_t.mod" "mechanisms//NO.mod" "mechanisms//par_ggap.mod" "mechanisms//pka_buffer.mod" "mechanisms//sk_ch.mod" "mechanisms//SK_E2.mod" "mechanisms//sk_fs.mod" "mechanisms//sk_ms.mod" "mechanisms//SKv3_1.mod" "mechanisms//tmgabaa.mod" "mechanisms//tmglut_double.mod" "mechanisms//tmglut_M1RH_D1.mod" "mechanisms//tmglut.mod" "mechanisms//vecevent.mod"
+
+MODOBJS= ./bk_ch.o ./bk_fs.o ./bk_ms.o ./ca_ch.o ./CaDynamics_E2.o ./cadyn_fs.o ./cadyn_ms.o ./cal12_ms.o ./cal13_ms.o ./cal_ch.o ./caldyn_ms.o ./Ca_LVAst.o ./Ca.o ./can_fs.o ./can_ms.o ./cap_ch.o ./caq_fs.o ./caq_ms.o ./car_fs.o ./car_ms.o ./cat32_ms.o ./cat33_ms.o ./DASyn.o ./hcn12_ch.o ./hd_lts.o ./Ih.o ./im_lts.o ./Im.o ./Im_ms.o ./insert_ik_ina_ica.o ./it_lts.o ./kaf_fs.o ./kaf_lts.o ./kaf_ms.o ./kas_fs.o ./kas_ms.o ./kcnq_ch.o ./kdb_lts.o ./kdrb_lts.o ./kdr_fs.o ./kdr_lts.o ./kdr_ms.o ./kir23_ch.o ./kir23_lts.o ./kir2_ch.o ./kir_fs.o ./kir.o ./kir_ms.o ./K_Pst.o ./K_Tst.o ./kv2_ch.o ./Kv3_GPe.o ./kv4_ch.o ./na2_ch.o ./na3_lts.o ./na_ch.o ./nACh.o ./naf_fs.o ./naf_lts.o ./naf_ms.o ./naf_th.o ./Nap_Et2.o ./NaTa_t.o ./NaTs2_t.o ./NO.o ./par_ggap.o ./pka_buffer.o ./sk_ch.o ./SK_E2.o ./sk_fs.o ./sk_ms.o ./SKv3_1.o ./tmgabaa.o ./tmglut_double.o ./tmglut_M1RH_D1.o ./tmglut.o ./vecevent.o
+ -> [32mCompiling[0m mod_func.cpp
+ -> [32mNMODL[0m ../mechanisms//bk_ch.mod
+ -> [32mNMODL[0m ../mechanisms//bk_fs.mod
+ -> [32mNMODL[0m ../mechanisms//bk_ms.mod
+ -> [32mNMODL[0m ../mechanisms//ca_ch.mod
+ -> [32mNMODL[0m ../mechanisms//CaDynamics_E2.mod
+ -> [32mNMODL[0m ../mechanisms//cadyn_fs.mod
+Warning: Default 1 of PARAMETER diam will be ignored and set by NEURON.
+ -> [32mNMODL[0m ../mechanisms//cadyn_ms.mod
+ -> [32mNMODL[0m ../mechanisms//cal12_ms.mod
+ -> [32mNMODL[0m ../mechanisms//cal13_ms.mod
+ -> [32mNMODL[0m ../mechanisms//cal_ch.mod
+ -> [32mNMODL[0m ../mechanisms//caldyn_ms.mod
+ -> [32mNMODL[0m ../mechanisms//Ca_LVAst.mod
+Warning: Default 6.3 of PARAMETER celsius will be ignored and set by NEURON.
+ -> [32mNMODL[0m ../mechanisms//Ca.mod
+ -> [32mNMODL[0m ../mechanisms//can_fs.mod
+ -> [32mNMODL[0m ../mechanisms//can_ms.mod
+ -> [32mNMODL[0m ../mechanisms//cap_ch.mod
+ -> [32mNMODL[0m ../mechanisms//caq_fs.mod
+ -> [32mNMODL[0m ../mechanisms//caq_ms.mod
+Warning: Default 35 of PARAMETER celsius will be ignored and set by NEURON.
+ -> [32mNMODL[0m ../mechanisms//car_fs.mod
+ -> [32mNMODL[0m ../mechanisms//car_ms.mod
+ -> [32mNMODL[0m ../mechanisms//cat32_ms.mod
+ -> [32mNMODL[0m ../mechanisms//cat33_ms.mod
+ -> [32mNMODL[0m ../mechanisms//DASyn.mod
+ -> [32mNMODL[0m ../mechanisms//hcn12_ch.mod
+ -> [32mNMODL[0m ../mechanisms//hd_lts.mod
+ -> [32mNMODL[0m ../mechanisms//Ih.mod
+ -> [32mNMODL[0m ../mechanisms//im_lts.mod
+ -> [32mNMODL[0m ../mechanisms//Im.mod
+ -> [32mNMODL[0m ../mechanisms//Im_ms.mod
+Warning: Default 36 of PARAMETER celsius will be ignored and set by NEURON.
+ -> [32mNMODL[0m ../mechanisms//insert_ik_ina_ica.mod
+ -> [32mNMODL[0m ../mechanisms//it_lts.mod
+ -> [32mNMODL[0m ../mechanisms//kaf_fs.mod
+ -> [32mNMODL[0m ../mechanisms//kaf_lts.mod
+Warning: Default 36 of PARAMETER celsius will be ignored and set by NEURON.
+Warning: Default 2 of PARAMETER cao will be ignored and set by NEURON.
+Warning: Default 0.00024 of PARAMETER cai will be ignored and set by NEURON.
+ -> [32mNMODL[0m ../mechanisms//kaf_ms.mod
+ -> [32mNMODL[0m ../mechanisms//kas_fs.mod
+ -> [32mNMODL[0m ../mechanisms//kas_ms.mod
+ -> [32mNMODL[0m ../mechanisms//kcnq_ch.mod
+ -> [32mNMODL[0m ../mechanisms//kdb_lts.mod
+ -> [32mNMODL[0m ../mechanisms//kdrb_lts.mod
+ -> [32mNMODL[0m ../mechanisms//kdr_fs.mod
+ -> [32mNMODL[0m ../mechanisms//kdr_lts.mod
+ -> [32mNMODL[0m ../mechanisms//kdr_ms.mod
+ -> [32mNMODL[0m ../mechanisms//kir23_ch.mod
+ -> [32mNMODL[0m ../mechanisms//kir23_lts.mod
+ -> [32mNMODL[0m ../mechanisms//kir2_ch.mod
+ -> [32mNMODL[0m ../mechanisms//kir_fs.mod
+ -> [32mNMODL[0m ../mechanisms//kir.mod
+ -> [32mNMODL[0m ../mechanisms//kir_ms.mod
+ -> [32mNMODL[0m ../mechanisms//K_Pst.mod
+ -> [32mNMODL[0m ../mechanisms//K_Tst.mod
+ -> [32mNMODL[0m ../mechanisms//kv2_ch.mod
+ -> [32mNMODL[0m ../mechanisms//Kv3_GPe.mod
+ -> [32mNMODL[0m ../mechanisms//kv4_ch.mod
+ -> [32mNMODL[0m ../mechanisms//na2_ch.mod
+ -> [32mNMODL[0m ../mechanisms//na3_lts.mod
+ -> [32mNMODL[0m ../mechanisms//na_ch.mod
+ -> [32mNMODL[0m ../mechanisms//nACh.mod
+ -> [32mNMODL[0m ../mechanisms//naf_fs.mod
+ -> [32mNMODL[0m ../mechanisms//naf_lts.mod
+ -> [32mNMODL[0m ../mechanisms//naf_ms.mod
+ -> [32mNMODL[0m ../mechanisms//naf_th.mod
+ -> [32mNMODL[0m ../mechanisms//Nap_Et2.mod
+ -> [32mNMODL[0m ../mechanisms//NaTa_t.mod
+ -> [32mNMODL[0m ../mechanisms//NaTs2_t.mod
+ -> [32mNMODL[0m ../mechanisms//NO.mod
+ -> [32mNMODL[0m ../mechanisms//par_ggap.mod
+ -> [32mNMODL[0m ../mechanisms//pka_buffer.mod
+ -> [32mNMODL[0m ../mechanisms//sk_ch.mod
+ -> [32mNMODL[0m ../mechanisms//SK_E2.mod
+ -> [32mNMODL[0m ../mechanisms//sk_fs.mod
+ -> [32mNMODL[0m ../mechanisms//sk_ms.mod
+ -> [32mNMODL[0m ../mechanisms//SKv3_1.mod
+ -> [32mNMODL[0m ../mechanisms//tmgabaa.mod
+ -> [32mNMODL[0m ../mechanisms//tmglut_double.mod
+ -> [32mNMODL[0m ../mechanisms//tmglut_M1RH_D1.mod
+ -> [32mNMODL[0m ../mechanisms//tmglut.mod
+ -> [32mNMODL[0m ../mechanisms//vecevent.mod
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/bk_ch.cpp
+Notice: ARTIFICIAL_CELL is a synonym for POINT_PROCESS which hints that it
+only affects and is affected by discrete events. As such it is not
+located in a section and is not associated with an integrator
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/bk_fs.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/bk_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/ca_ch.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/CaDynamics_E2.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cadyn_fs.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cadyn_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cal12_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cal13_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cal_ch.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/caldyn_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Ca_LVAst.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Ca.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/can_fs.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/can_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cap_ch.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/caq_fs.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/caq_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/car_fs.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/car_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cat32_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/cat33_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/DASyn.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/hcn12_ch.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/hd_lts.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Ih.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/im_lts.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Im.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Im_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/insert_ik_ina_ica.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/it_lts.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kaf_fs.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kaf_lts.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kaf_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kas_fs.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kas_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kcnq_ch.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kdb_lts.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kdrb_lts.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kdr_fs.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kdr_lts.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kdr_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kir23_ch.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kir23_lts.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kir2_ch.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kir_fs.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kir.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kir_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/K_Pst.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/K_Tst.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kv2_ch.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Kv3_GPe.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/kv4_ch.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/na2_ch.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/na3_lts.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/na_ch.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/nACh.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/naf_fs.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/naf_lts.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/naf_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/naf_th.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/Nap_Et2.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/NaTa_t.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/NaTs2_t.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/NO.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/par_ggap.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/pka_buffer.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/sk_ch.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/SK_E2.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/sk_fs.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/sk_ms.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/SKv3_1.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/tmgabaa.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/tmglut_double.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/tmglut_M1RH_D1.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/tmglut.cpp
+ -> [32mCompiling[0m /cfs/klemming/home/m/metog/snudda_test/test/x86_64/vecevent.cpp
+ => [32mLINKING[0m shared library "/cfs/klemming/home/m/metog/snudda_test/test/x86_64/./libnrnmech.so"
+ => [32mLINKING[0m executable "/cfs/klemming/home/m/metog/snudda_test/test/x86_64/./special" LDFLAGS are:     
+Successfully created x86_64/special
+mod files compiled
+Using cube for striatum
+Neurons for striatum read from /cfs/klemming/home/m/metog/BasalGangliaData/data/neurons/striatum
+Adding neurons: FS from dir /cfs/klemming/home/m/metog/BasalGangliaData/data/neurons/striatum/fs
+Adding neurons: dSPN from dir /cfs/klemming/home/m/metog/BasalGangliaData/data/neurons/striatum/dspn
+Adding neurons: iSPN from dir /cfs/klemming/home/m/metog/BasalGangliaData/data/neurons/striatum/ispn
+ChIN: Skipping neuron because, num_neurons =0
+LTS: Skipping neuron because, num_neurons =0
+NGF: Skipping neuron because, num_neurons =0
+Writing networks/simple_example_parallel/network-config.json
+Placing neurons
+Network path: networks/simple_example_parallel
+Creating missing directory networks/simple_example_parallel/log
+Created directory networks/simple_example_parallel/log
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from networks/simple_example_parallel/network-config.json
+No n_putative_points and putative_density, setting n_putative_points = 419
+(this must be larger than the number of neurons you want to place)
+Generating 419 points for networks/simple_example_parallel/mesh/Striatum-cube-mesh-8.176214290567816e-05.obj
+Filtering, keeping inside points: 61 / 170
+neuron_name = 'FS_0', num = np.int64(0), neuron_path = '$SNUDDA_DATA/neurons/striatum/fs/str-fs-e160628_FS2-mMTC180800A-IDB-v20220614'
+neuron_name = 'FS_1', num = np.int64(1), neuron_path = '$SNUDDA_DATA/neurons/striatum/fs/str-fs-e161024_FS16-mDR-rat-Mar-13-08-1-536-R-v20220614'
+neuron_name = 'FS_2', num = np.int64(1), neuron_path = '$SNUDDA_DATA/neurons/striatum/fs/str-fs-e161205_FS1-mBE104E-v20220614'
+neuron_name = 'FS_3', num = np.int64(2), neuron_path = '$SNUDDA_DATA/neurons/striatum/fs/str-fs-e161205_FS1-mMTC180800A-IDB-v20220614'
+neuron_name = 'FS_4', num = np.int64(0), neuron_path = '$SNUDDA_DATA/neurons/striatum/fs/str-fs-e180418_FS5-mMTC251001A-IDB-v20220614'
+neuron_name = 'dSPN_0', num = np.int64(5), neuron_path = '$SNUDDA_DATA/neurons/striatum/dspn/str-dspn-e150602_c1_D1-mWT-0728MSN01-v20220620'
+neuron_name = 'dSPN_1', num = np.int64(5), neuron_path = '$SNUDDA_DATA/neurons/striatum/dspn/str-dspn-e150917_c10_D1-mWT-P270-20-v20220620'
+neuron_name = 'dSPN_2', num = np.int64(5), neuron_path = '$SNUDDA_DATA/neurons/striatum/dspn/str-dspn-e150917_c6_D1-m21-6-DE-v20220623'
+neuron_name = 'dSPN_3', num = np.int64(5), neuron_path = '$SNUDDA_DATA/neurons/striatum/dspn/str-dspn-e150917_c9_d1-mWT-1215MSN03-v20220620'
+neuron_name = 'iSPN_0', num = np.int64(5), neuron_path = '$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e150908_c4_D2-m51-5-DE-v20220622'
+neuron_name = 'iSPN_1', num = np.int64(5), neuron_path = '$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e150917_c11_D2-mWT-MSN1-v20220623'
+neuron_name = 'iSPN_2', num = np.int64(5), neuron_path = '$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e151123_c1_D2-mWT-P270-09-v20220623'
+neuron_name = 'iSPN_3', num = np.int64(5), neuron_path = '$SNUDDA_DATA/neurons/striatum/ispn/str-ispn-e160118_c10_D2-m46-3-DE-v20220622'
+Calling cleanup on workers (log file already closed).
+Touch detection
+Network path: networks/simple_example_parallel
+Creating missing directory networks/simple_example_parallel/voxels
+Created directory networks/simple_example_parallel/voxels
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from networks/simple_example_parallel/network-config.json
+No d_view specified, running distribute neurons in serial
+Processing hyper voxel : 31/100 (44 neurons)
+Processing hyper voxel : 56/100 (43 neurons)
+Processing hyper voxel : 32/100 (36 neurons)
+Processing hyper voxel : 36/100 (32 neurons)
+Processing hyper voxel : 57/100 (26 neurons)
+Processing hyper voxel : 26/100 (24 neurons)
+Processing hyper voxel : 61/100 (22 neurons)
+Processing hyper voxel : 30/100 (18 neurons)
+Processing hyper voxel : 37/100 (17 neurons)
+Processing hyper voxel : 51/100 (16 neurons)
+Processing hyper voxel : 6/100 (10 neurons)
+Processing hyper voxel : 55/100 (9 neurons)
+Processing hyper voxel : 27/100 (8 neurons)
+Processing hyper voxel : 62/100 (8 neurons)
+Processing hyper voxel : 7/100 (8 neurons)
+Processing hyper voxel : 35/100 (7 neurons)
+Processing hyper voxel : 52/100 (6 neurons)
+Processing hyper voxel : 11/100 (5 neurons)
+Processing hyper voxel : 25/100 (5 neurons)
+Processing hyper voxel : 60/100 (3 neurons)
+Processing hyper voxel : 1/100 (3 neurons)
+Processing hyper voxel : 10/100 (2 neurons)
+Processing hyper voxel : 12/100 (2 neurons)
+Processing hyper voxel : 5/100 (2 neurons)
+Processing hyper voxel : 50/100 (2 neurons)
+Processing hyper voxel : 2/100 (1 neurons)
+Processing hyper voxel : 42/100 (1 neurons)
+Processing hyper voxel : 63/100 (1 neurons)
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from networks/simple_example_parallel/network-config.json
+Calling cleanup on workers (log file already closed).
+Prune synapses
+Network path: networks/simple_example_parallel
+No file networks/simple_example_parallel/pruning_merge_info.json
+Read 29873 out of total 29873 synapses
+Read 26 out of total 26 gap_junctions
+Calling cleanup on workers (log file already closed).
+Setting up inputs, assuming input.json exists
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from networks/simple_example_parallel/network-config.json
+Writing input spikes to networks/simple_example_parallel/input-spikes.hdf5
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from networks/simple_example_parallel/network-config.json
+Writing spikes to networks/simple_example_parallel/input-spikes.hdf5
+Calling cleanup on workers (log file already closed).
+network creation complete
+Network dir: /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel
+numprocs=10
+Network_simulate.py called through nrniv, fixing arguments
+Creating directory /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-config.json
+MPI Rank: 3, Size: 10 -- NEURON: This is node 3 out of 10
+3 : Memory status: 91% free
+RxD for neuromodulation: DISABLED.
+Empty mod_file field for ChIN -> dSPN synapses. This channel is IGNORED.
+Empty mod_file field for ChIN -> iSPN synapses. This channel is IGNORED.
+3 : Memory status: 91% free
+3 : Memory status: 91% free
+3 : Memory status: 91% free
+3 : Memory status: 91% free
+Running simulation for 3.5 s
+Running Neuron simulator 3500 ms, with dt=0.025
+Neuron simulation finished
+Simulation run time: 316.7 s
+Worker 4/10 writing data to /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation/output.hdf5
+Network_simulate.py called through nrniv, fixing arguments
+Creating directory /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-config.json
+MPI Rank: 5, Size: 10 -- NEURON: This is node 5 out of 10
+5 : Memory status: 91% free
+RxD for neuromodulation: DISABLED.
+Empty mod_file field for ChIN -> dSPN synapses. This channel is IGNORED.
+Empty mod_file field for ChIN -> iSPN synapses. This channel is IGNORED.
+5 : Memory status: 91% free
+5 : Memory status: 91% free
+5 : Memory status: 91% free
+5 : Memory status: 91% free
+Running simulation for 3.5 s
+Running Neuron simulator 3500 ms, with dt=0.025
+Neuron simulation finished
+Simulation run time: 317.3 s
+Worker 6/10 writing data to /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation/output.hdf5
+Network_simulate.py called through nrniv, fixing arguments
+Creating directory /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-config.json
+MPI Rank: 6, Size: 10 -- NEURON: This is node 6 out of 10
+6 : Memory status: 91% free
+RxD for neuromodulation: DISABLED.
+Empty mod_file field for ChIN -> dSPN synapses. This channel is IGNORED.
+Empty mod_file field for ChIN -> iSPN synapses. This channel is IGNORED.
+6 : Memory status: 91% free
+6 : Memory status: 91% free
+6 : Memory status: 91% free
+6 : Memory status: 91% free
+Running simulation for 3.5 s
+Running Neuron simulator 3500 ms, with dt=0.025
+Neuron simulation finished
+Simulation run time: 317.3 s
+Worker 7/10 writing data to /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation/output.hdf5
+Network_simulate.py called through nrniv, fixing arguments
+Creating directory /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-config.json
+MPI Rank: 7, Size: 10 -- NEURON: This is node 7 out of 10
+7 : Memory status: 91% free
+RxD for neuromodulation: DISABLED.
+Empty mod_file field for ChIN -> dSPN synapses. This channel is IGNORED.
+Empty mod_file field for ChIN -> iSPN synapses. This channel is IGNORED.
+7 : Memory status: 91% free
+7 : Memory status: 91% free
+7 : Memory status: 91% free
+7 : Memory status: 91% free
+Running simulation for 3.5 s
+Running Neuron simulator 3500 ms, with dt=0.025
+Neuron simulation finished
+Simulation run time: 317.3 s
+Worker 8/10 writing data to /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation/output.hdf5
+Network_simulate.py called through nrniv, fixing arguments
+Creating directory /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-config.json
+MPI Rank: 0, Size: 10 -- NEURON: This is node 0 out of 10
+0 : Memory status: 91% free
+RxD for neuromodulation: DISABLED.
+Empty mod_file field for ChIN -> dSPN synapses. This channel is IGNORED.
+Empty mod_file field for ChIN -> iSPN synapses. This channel is IGNORED.
+0 : Memory status: 91% free
+Added 17.0 gap junctions to simulation (17 total)
+Added 1705 synapses to simulation (1705 total)
+0 : Memory status: 91% free
+0 : Memory status: 91% free
+0 : Memory status: 91% free
+Running simulation for 3.5 s
+Running Neuron simulator 3500 ms, with dt=0.025
+  1% done. Elapsed: 3.1 s, estimated time left: 311.6 s
+ 40% done. Elapsed: 126.1 s, estimated time left: 189.2 s
+ 80% done. Elapsed: 253.0 s, estimated time left: 63.2 s
+100% done. Elapsed: 316.7 s, estimated time left: 0.0 s
+Neuron simulation finished
+Simulation run time: 316.9 s
+Writing network output to /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation/output.hdf5
+Using sample dt = None (sample step size None)
+Worker 1/10 writing data to /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation/output.hdf5
+Network_simulate.py called through nrniv, fixing arguments
+Creating directory /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-config.json
+MPI Rank: 1, Size: 10 -- NEURON: This is node 1 out of 10
+1 : Memory status: 91% free
+RxD for neuromodulation: DISABLED.
+Empty mod_file field for ChIN -> dSPN synapses. This channel is IGNORED.
+Empty mod_file field for ChIN -> iSPN synapses. This channel is IGNORED.
+1 : Memory status: 91% free
+1 : Memory status: 91% free
+1 : Memory status: 91% free
+1 : Memory status: 91% free
+Running simulation for 3.5 s
+Running Neuron simulator 3500 ms, with dt=0.025
+Neuron simulation finished
+Simulation run time: 316.9 s
+Worker 2/10 writing data to /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation/output.hdf5
+Network_simulate.py called through nrniv, fixing arguments
+Creating directory /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-config.json
+MPI Rank: 2, Size: 10 -- NEURON: This is node 2 out of 10
+2 : Memory status: 91% free
+RxD for neuromodulation: DISABLED.
+Empty mod_file field for ChIN -> dSPN synapses. This channel is IGNORED.
+Empty mod_file field for ChIN -> iSPN synapses. This channel is IGNORED.
+2 : Memory status: 91% free
+2 : Memory status: 91% free
+2 : Memory status: 91% free
+2 : Memory status: 91% free
+Running simulation for 3.5 s
+Running Neuron simulator 3500 ms, with dt=0.025
+Neuron simulation finished
+Simulation run time: 316.8 s
+Worker 3/10 writing data to /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation/output.hdf5
+Network_simulate.py called through nrniv, fixing arguments
+Creating directory /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-config.json
+MPI Rank: 8, Size: 10 -- NEURON: This is node 8 out of 10
+8 : Memory status: 91% free
+RxD for neuromodulation: DISABLED.
+Empty mod_file field for ChIN -> dSPN synapses. This channel is IGNORED.
+Empty mod_file field for ChIN -> iSPN synapses. This channel is IGNORED.
+8 : Memory status: 91% free
+8 : Memory status: 91% free
+8 : Memory status: 91% free
+8 : Memory status: 91% free
+Running simulation for 3.5 s
+Running Neuron simulator 3500 ms, with dt=0.025
+Neuron simulation finished
+Simulation run time: 317.3 s
+Worker 9/10 writing data to /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation/output.hdf5
+Network_simulate.py called through nrniv, fixing arguments
+Creating directory /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-config.json
+MPI Rank: 9, Size: 10 -- NEURON: This is node 9 out of 10
+9 : Memory status: 91% free
+RxD for neuromodulation: DISABLED.
+Empty mod_file field for ChIN -> dSPN synapses. This channel is IGNORED.
+Empty mod_file field for ChIN -> iSPN synapses. This channel is IGNORED.
+9 : Memory status: 91% free
+9 : Memory status: 91% free
+9 : Memory status: 91% free
+9 : Memory status: 91% free
+Running simulation for 3.5 s
+Running Neuron simulator 3500 ms, with dt=0.025
+Neuron simulation finished
+Simulation run time: 317.0 s
+Worker 10/10 writing data to /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation/output.hdf5
+Network_simulate.py called through nrniv, fixing arguments
+Creating directory /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation
+Reading SNUDDA_DATA=/cfs/klemming/home/m/metog/BasalGangliaData/data from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-config.json
+MPI Rank: 4, Size: 10 -- NEURON: This is node 4 out of 10
+4 : Memory status: 91% free
+RxD for neuromodulation: DISABLED.
+Empty mod_file field for ChIN -> dSPN synapses. This channel is IGNORED.
+Empty mod_file field for ChIN -> iSPN synapses. This channel is IGNORED.
+4 : Memory status: 91% free
+4 : Memory status: 91% free
+4 : Memory status: 91% free
+4 : Memory status: 91% free
+Running simulation for 3.5 s
+Running Neuron simulator 3500 ms, with dt=0.025
+Neuron simulation finished
+Simulation run time: 317.3 s
+Worker 5/10 writing data to /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation/output.hdf5
+simulation complete

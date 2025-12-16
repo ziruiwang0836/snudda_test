@@ -1,0 +1,48 @@
+Using network_file: /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-synapses.hdf5
+Using input_file: /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/input-spikes.hdf5
+Using output_file: /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation/output.hdf5
+Using logFile: /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/log/network-simulation-log.txt-1
+Waiting 1 second for master node to create save/traces
+Worker 1 : Loading network from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-synapses.hdf5
+Loading config file networks/simple_example_parallel/network-config.json
+1 : Memory status: 91% free
+Distributing neurons (#2).
+Worker 1 has real neurons real_neuron_id[r_idx] = array([ 1, 11, 21, 31, 41])
+virtual_neuron_id[v_idx] =array([], dtype=float64)
+RxD for neuromodulation: DISABLED.
+RxD extracellular not enabled.
+Setup neurons
+Empty mod_file field for ChIN -> dSPN synapses. This channel is IGNORED.
+Empty mod_file field for ChIN -> iSPN synapses. This channel is IGNORED.
+Node 1 - cell 1 FS_2
+Neuron FS_2 (1) resting voltage = -94.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 1 - cell 21 dSPN_3
+Neuron dSPN_3 (21) resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 1 - cell 41 iSPN_3
+Neuron iSPN_3 (41) resting voltage = -83.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 1 - cell 11 dSPN_1
+Neuron dSPN_1 (11) resting voltage = -87.00000000000001
+!!! Popping extra segment from neuron -- temp fix!
+Node 1 - cell 31 iSPN_1
+Neuron iSPN_1 (31) resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+1 : Memory status: 91% free
+Adding gap junctions.
+connect_network_gap_junctions_local
+Finding node local gap junctions...
+Found 4 local gap junctions on node.
+Adding synapses.
+connect_network_synapses
+Added 257 on worker 1
+1 : Memory status: 91% free
+Adding external (cortical, thalamic) input from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/input-spikes.hdf5
+1 : Memory status: 91% free
+Adding soma voltage recording to neurons.
+1 : Memory status: 91% free
+Running simulation for 3.5 s
+Simulation done.
+Simulation run time: 316.9 s
+Simulation done, saving output

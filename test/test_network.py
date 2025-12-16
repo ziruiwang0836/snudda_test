@@ -4,7 +4,7 @@ import time
 from snudda import Snudda
 
 
-snudda_data = "/Users/peirui/BasalGangliaData/data"
+snudda_data = "../../BasalGangliaData/data"
 os.environ["SNUDDA_DATA"] = snudda_data
 
 # define and write network

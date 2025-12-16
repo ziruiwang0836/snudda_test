@@ -1,0 +1,45 @@
+Using network_file: /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-synapses.hdf5
+Using input_file: /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/input-spikes.hdf5
+Using output_file: /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/simulation/output.hdf5
+Using logFile: /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/log/network-simulation-log.txt-7
+Waiting 1 second for master node to create save/traces
+Worker 7 : Loading network from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/network-synapses.hdf5
+Loading config file networks/simple_example_parallel/network-config.json
+7 : Memory status: 91% free
+Distributing neurons (#2).
+Worker 7 has real neurons real_neuron_id[r_idx] = array([ 7, 17, 27, 37])
+virtual_neuron_id[v_idx] =array([], dtype=float64)
+RxD for neuromodulation: DISABLED.
+RxD extracellular not enabled.
+Setup neurons
+Empty mod_file field for ChIN -> dSPN synapses. This channel is IGNORED.
+Empty mod_file field for ChIN -> iSPN synapses. This channel is IGNORED.
+Node 7 - cell 17 dSPN_2
+Neuron dSPN_2 (17) resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 7 - cell 27 iSPN_0
+Neuron iSPN_0 (27) resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 7 - cell 37 iSPN_2
+Neuron iSPN_2 (37) resting voltage = -83.0
+!!! Popping extra segment from neuron -- temp fix!
+Node 7 - cell 7 dSPN_0
+Neuron dSPN_0 (7) resting voltage = -86.0
+!!! Popping extra segment from neuron -- temp fix!
+7 : Memory status: 91% free
+Adding gap junctions.
+connect_network_gap_junctions_local
+Finding node local gap junctions...
+Found 0 local gap junctions on node.
+Adding synapses.
+connect_network_synapses
+Added 105 on worker 7
+7 : Memory status: 91% free
+Adding external (cortical, thalamic) input from /cfs/klemming/home/m/metog/snudda_test/test/networks/simple_example_parallel/input-spikes.hdf5
+7 : Memory status: 91% free
+Adding soma voltage recording to neurons.
+7 : Memory status: 91% free
+Running simulation for 3.5 s
+Simulation done.
+Simulation run time: 317.3 s
+Simulation done, saving output

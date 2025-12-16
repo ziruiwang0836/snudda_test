@@ -1,0 +1,6 @@
+Starting log file
+Using hdf5 version: latest
+Parsing place config file networks/simple_example_parallel/network-config.json
+Reading random seed from config file: 2973253328
+Writing data to HDF5 file: networks/simple_example_parallel/network-neuron-positions.hdf5
+Write done.

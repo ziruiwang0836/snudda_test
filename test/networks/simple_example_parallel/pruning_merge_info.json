@@ -1,0 +1,26 @@
+{
+    "merge_files_syn": [
+        "networks/simple_example_parallel/temp/synapses-for-neurons-0-to-44-MERGE-ME.hdf5"
+    ],
+    "merge_neuron_range_syn": [
+        [
+            0,
+            44
+        ]
+    ],
+    "merge_syn_ctr": [
+        29873
+    ],
+    "merge_files_gj": [
+        "networks/simple_example_parallel/temp/gap_junctions-for-neurons-0-to-44-MERGE-ME.hdf5"
+    ],
+    "merge_neuron_range_gj": [
+        [
+            0,
+            44
+        ]
+    ],
+    "merge_gj_ctr": [
+        26
+    ]
+}
